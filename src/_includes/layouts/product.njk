@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+---
+{% set schema_product = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: title,
+  image: images | pluck('src'),
+  description: seo and seo.description or content | striptags | truncate(160),
+  offers: {
+    '@type': 'Offer',
+    price: price,
+    priceCurrency: currency or 'CAD',
+    availability: in_stock and 'https://schema.org/InStock' or 'https://schema.org/OutOfStock',
+    url: buy_url
+  }
+} %}
+
+<article class="py-8">
+  <a href="{{ '/shop/' | url }}" class="text-sm underline">← Back to Shop</a>
+  <h1 class="mt-2 text-3xl font-semibold">{{ title }}</h1>
+  <div class="mt-6 grid md:grid-cols-2 gap-8">
+    <div>
+      {% if images and images.length %}
+        {% for image in images %}
+          <div class="mb-4">{% img image.src, title %}</div>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <div>
+      <p class="text-lg">{{ content | safe }}</p>
+      <p class="mt-4 text-xl"><span class="font-semibold">{{ price }}</span> {{ currency or 'CAD' }}</p>
+      {% if buy_url %}
+        <a href="{{ buy_url }}" class="inline-block mt-4 bg-blue text-white px-4 py-2 rounded-md">Buy</a>
+      {% endif %}
+      {% if type %}
+        <div class="mt-4 inline-block text-xs uppercase tracking-wide bg-beige px-2 py-1 rounded-md">{{ type }}</div>
+      {% endif %}
+    </div>
+  </div>
+</article>

@@ -1,0 +1,73 @@
+---
+layout: layouts/base.njk
+title: Shop
+permalink: /shop/index.html
+seo:
+  title: "Shop | SIRK Studio"
+  description: "Art prints, greeting cards, and custom keepsakes."
+---
+
+<!-- Shop Header -->
+<section class="section-padding bg-gradient-to-br from-brand-50 to-accent-50">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-5xl md:text-6xl font-serif font-semibold text-gradient mb-6">
+        Shop
+      </h1>
+      <p class="text-xl text-neutral-700 leading-relaxed mb-8">
+        Thoughtful gifts for baby, kids & parents. Each piece is carefully crafted to celebrate the beautiful moments of family life.
+      </p>
+      <div class="inline-flex items-center gap-2 text-sm text-neutral-600 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+        </svg>
+        Made in Canada
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Products Grid -->
+<section class="section-padding bg-white">
+  <div class="container-custom">
+    {% set items = collections.products %}
+    <p class="sr-only">Count: {{ items | length }}</p>
+    
+    {% if items and items.length %}
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        {% for p in items %}
+          <div class="animate-fade-in" style="animation-delay: {{ loop.index0 * 0.1 }}s">
+            {% productcard p %}
+          </div>
+        {% endfor %}
+      </div>
+      
+      <!-- Shop Info -->
+      <div class="mt-16 text-center">
+        <div class="max-w-2xl mx-auto">
+          <h2 class="text-3xl font-serif font-semibold text-gradient mb-4">
+            Can't find what you're looking for?
+          </h2>
+          <p class="text-lg text-neutral-600 mb-6">
+            We're always working on new designs and products. Get in touch if you have a special request or would like to be notified when new items are added.
+          </p>
+          <a href="mailto:{{ site.author.email }}" class="btn-primary">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    {% else %}
+      <div class="text-center py-16">
+        <div class="w-24 h-24 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg class="w-12 h-12 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+          </svg>
+        </div>
+        <h2 class="text-2xl font-serif font-semibold text-neutral-900 mb-4">Coming Soon</h2>
+        <p class="text-neutral-600 mb-6">We're working on adding new products to our collection. Check back soon!</p>
+        <a href="{{ '/' | url }}" class="btn-secondary">Back to Home</a>
+      </div>
+    {% endif %}
+  </div>
+</section>

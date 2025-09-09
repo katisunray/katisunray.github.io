@@ -1,0 +1,72 @@
+---
+layout: layouts/base.njk
+title: Home
+seo:
+  title: "SIRK Studio – Thoughtful Gifts for Baby, Kids & Parents"
+  description: "Cherishing simple and precious family moments with prints, cards, and keepsakes."
+---
+
+<!-- Hero Section -->
+<section class="hero-gradient section-padding">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto text-center">
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-semibold text-gradient mb-6 animate-fade-in">
+        Thoughtful Gifts for Baby, Kids & Parents
+      </h1>
+      <p class="text-xl md:text-2xl text-neutral-600 leading-relaxed mb-8 max-w-3xl mx-auto animate-slide-up">
+        Cherishing simple (and precious) family moments & celebrating presence with our little ones through beautiful prints, cards, and keepsakes.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
+        <a href="{{ '/shop/' | url }}" class="btn-primary text-lg px-8 py-4">
+          Browse the Shop
+        </a>
+        <a href="{{ '/about/' | url }}" class="btn-secondary text-lg px-8 py-4">
+          Our Story
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="section-padding bg-white">
+  <div class="container-custom">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-serif font-semibold text-gradient mb-4">Featured Products</h2>
+      <p class="text-xl text-neutral-600 max-w-2xl mx-auto">
+        Discover our carefully curated collection of meaningful gifts that celebrate the joy of family moments.
+      </p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for p in collections.products %}
+        {% if loop.index0 < 3 %}
+          <div class="animate-fade-in" style="animation-delay: {{ loop.index0 * 0.1 }}s">
+            {% productcard p %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="text-center mt-12">
+      <a href="{{ '/shop/' | url }}" class="btn-primary">
+        View All Products
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- About Preview Section -->
+<section class="section-padding bg-gradient-to-br from-brand-50 to-accent-50">
+  <div class="container-custom">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl md:text-5xl font-serif font-semibold text-gradient mb-6">
+        Made with Love in Canada
+      </h2>
+      <p class="text-xl text-neutral-700 leading-relaxed mb-8">
+        Each piece is thoughtfully created and printed in Ontario, designed to bring joy to families and create lasting memories. From baby books to art prints, every item tells a story of love, presence, and the beautiful chaos of family life.
+      </p>
+      <a href="{{ '/about/' | url }}" class="btn-secondary">
+        Learn More About Us
+      </a>
+    </div>
+  </div>
+</section>

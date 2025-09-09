@@ -1,0 +1,44 @@
+<a class="card group block overflow-hidden" href="{{ product.url | url }}">
+  <div class="aspect-[4/3] bg-gradient-to-br from-neutral-100 to-neutral-200 overflow-hidden relative">
+    {% if product.data.images and product.data.images.length %}
+      {% img product.data.images[0].src, product.data.title, [400,800,1200], "(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 100vw" %}
+    {% else %}
+      <div class="w-full h-full flex items-center justify-center">
+        <div class="w-16 h-16 bg-neutral-300 rounded-full flex items-center justify-center">
+          <svg class="w-8 h-8 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          </svg>
+        </div>
+      </div>
+    {% endif %}
+    <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300"></div>
+    {% if product.data.type %}
+      <div class="absolute top-4 left-4">
+        <span class="inline-block text-xs font-medium uppercase tracking-wide bg-white/90 backdrop-blur-sm text-neutral-700 px-3 py-1.5 rounded-full shadow-sm">
+          {{ product.data.type }}
+        </span>
+      </div>
+    {% endif %}
+  </div>
+  <div class="p-6">
+    <div class="flex items-start justify-between mb-3">
+      <h3 class="font-serif text-lg font-semibold text-neutral-900 group-hover:text-brand-600 transition-colors duration-200 leading-tight">
+        {{ product.data.title }}
+      </h3>
+      <span class="text-lg font-bold text-brand-600 ml-4 flex-shrink-0">
+        ${{ product.data.price }} {{ product.data.currency or 'CAD' }}
+      </span>
+    </div>
+    {% if product.data.description %}
+      <p class="text-sm text-neutral-600 leading-relaxed line-clamp-2">
+        {{ product.data.description | truncate(100) }}
+      </p>
+    {% endif %}
+    <div class="mt-4 flex items-center text-sm text-brand-600 font-medium group-hover:text-brand-700 transition-colors duration-200">
+      View Details
+      <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+      </svg>
+    </div>
+  </div>
+</a>

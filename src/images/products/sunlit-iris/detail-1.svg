@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='900' viewBox='0 0 1200 900'>
+  <rect width='1200' height='900' fill='#f7e8ba'/>
+  <rect x='200' y='200' width='800' height='500' rx='20' fill='#94cadf'/>
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia, serif' font-size='44' fill='#1F3E49'>Detail Placeholder</text>
+</svg>
+

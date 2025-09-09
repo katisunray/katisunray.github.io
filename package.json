@@ -1,0 +1,21 @@
+{
+  "name": "katisunray-site",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "concurrently \"npm:watch:*\"",
+    "watch:11ty": "eleventy --serve --quiet",
+    "watch:css": "node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && postcss src/styles/input.css -o _site/assets/main.css --watch",
+    "build": "rimraf _site && node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && set NODE_ENV=production && postcss src/styles/input.css -o _site/assets/main.css && eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^5.0.0",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.10"
+  }
+}

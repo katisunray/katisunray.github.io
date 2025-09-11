@@ -12,7 +12,7 @@ images:
   - src: "/images/products/ode-to-you/odetoyou.jpg" # cover (add this file)
   - src: "/images/products/ode-to-you/main.svg"     # fallback placeholder
   - src: "/images/products/ode-to-you/detail-1.svg"
-buy_url: "https://www.etsy.com/"
+buy_url: "https://a.co/d/2uVtlP3"
 in_stock: true
 seo:
   title: "An Ode to You, Our Baby | SIRK Studio"

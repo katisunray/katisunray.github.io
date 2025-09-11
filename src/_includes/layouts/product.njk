@@ -18,7 +18,7 @@ layout: layouts/base.njk
 
 <article class="py-10">
   <div class="container-custom">
-    <a href="{{ '/shop/' | url }}" class="inline-flex items-center gap-1 text-sm bg-blue text-white px-3 py-1.5 rounded-md hover:opacity-90">← Back to Shop</a>
+    <a href="{{ '/shop/' | url }}" class="btn-secondary inline-flex items-center gap-1 px-4 py-2 text-sm">← Back to Shop</a>
     <h1 class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight">{{ title }}</h1>
     {% set gallery = images | filterDetailImages %}
     <div class="mt-8 grid md:grid-cols-2 gap-10 lg:gap-16 items-start">
@@ -44,7 +44,7 @@ layout: layouts/base.njk
         <div class="mt-1 text-sm text-green-700">In stock</div>
       {% endif %}
       {% if buy_url %}
-        <a href="{{ buy_url }}" class="inline-block mt-4 bg-blue text-white px-4 py-2 rounded-md">Buy</a>
+        <a href="{{ buy_url }}" class="btn-primary inline-block mt-4">Buy</a>
       {% endif %}
       {% if type %}
         <div class="mt-4 inline-block text-xs uppercase tracking-wide bg-beige px-2 py-1 rounded-md">{{ type }}</div>

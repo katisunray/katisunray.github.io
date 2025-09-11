@@ -14,7 +14,7 @@ images:
 buy_url: "https://www.etsy.com/"
 in_stock: true
 seo:
-  title: "Sunlit Iris A5 Art Print | SIRK Studio"
+  title: "Sunlit Iris A5 Art Print | Kati Sunray STUDIO"
   description: "Archival botanical print. Ready to frame."
 ---
 

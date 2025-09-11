@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: About
 permalink: /about/index.html
 seo:
-  title: "About SIRK Studio"
+  title: "About Kati Sunray STUDIO"
   description: "Small‑batch prints and greeting cards by Kati Sunray."
 ---
 
@@ -12,7 +12,7 @@ seo:
   <div class="container-custom">
     <div class="max-w-4xl mx-auto text-center">
       <h1 class="text-5xl md:text-6xl font-serif font-semibold text-gradient mb-6">
-        About SIRK Studio
+      About Kati Sunray STUDIO
       </h1>
       <p class="text-xl text-neutral-700 leading-relaxed">
         Creating heartfelt gifts that celebrate the beautiful chaos and precious moments of family life.
@@ -30,7 +30,7 @@ seo:
           <div>
             <h2 class="text-3xl font-serif font-semibold text-gradient mb-6">Our Story</h2>
             <p class="text-lg text-neutral-700 leading-relaxed mb-6">
-              SIRK Studio creates heartfelt gifts for families: greeting cards, art prints, and keepsakes that capture the essence of those precious, fleeting moments with our little ones.
+              Kati Sunray STUDIO creates heartfelt gifts for families: greeting cards, art prints, and keepsakes that capture the essence of those precious, fleeting moments with our little ones.
             </p>
             <p class="text-lg text-neutral-700 leading-relaxed">
               Each piece is designed to remind us to slow down, be present, and cherish the simple joys that children bring into our lives.
@@ -69,4 +69,3 @@ seo:
     </div>
   </div>
 </section>
-

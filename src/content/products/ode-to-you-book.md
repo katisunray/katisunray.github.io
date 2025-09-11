@@ -15,7 +15,7 @@ images:
 buy_url: "https://a.co/d/2uVtlP3"
 in_stock: true
 seo:
-  title: "An Ode to You, Our Baby | SIRK Studio"
+  title: "An Ode to You, Our Baby | Kati Sunray STUDIO"
   description: "A heartfelt poetic nursery book by Kati Sunray."
 ---
 

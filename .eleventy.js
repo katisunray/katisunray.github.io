@@ -43,6 +43,15 @@ module.exports = function (config) {
     return d.toISOString();
   });
   config.addFilter("pluck", (arr, key) => Array.isArray(arr) ? arr.map((o) => o && o[key]).filter(Boolean) : []);
+  // Filter placeholders from product detail gallery: if any non-SVG exists, only show non-SVGs
+  config.addFilter("filterDetailImages", (arr) => {
+    if (!Array.isArray(arr)) return [];
+    const norm = (s) => (typeof s === 'string' ? s : String(s || ''));
+    const items = arr.filter((it) => it && it.src).map((it) => ({...it, _src: norm(it.src)}));
+    const nonSvg = items.filter((it) => !/\.svg$/i.test(it._src));
+    if (nonSvg.length) return nonSvg.map(({_src, ...rest}) => rest);
+    return items.map(({_src, ...rest}) => rest);
+  });
   config.addNunjucksAsyncShortcode("img", (src, alt, widths, sizes) => imgShortcode(src, alt, widths, sizes, pathPrefix));
   config.addNunjucksAsyncShortcode("productcard", async (product) => {
     const d = product && product.data || {};

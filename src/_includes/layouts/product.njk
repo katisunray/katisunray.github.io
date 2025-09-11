@@ -19,17 +19,29 @@ layout: layouts/base.njk
 <article class="py-8">
   <a href="{{ '/shop/' | url }}" class="text-sm underline">← Back to Shop</a>
   <h1 class="mt-2 text-3xl font-semibold">{{ title }}</h1>
-  <div class="mt-6 grid md:grid-cols-2 gap-8">
+  {% set gallery = images | filterDetailImages %}
+  <div class="mt-6 grid md:grid-cols-2 gap-8 items-start">
     <div>
-      {% if images and images.length %}
-        {% for image in images %}
-          <div class="mb-4">{% img image.src, title %}</div>
-        {% endfor %}
+      {% if gallery and gallery.length %}
+        {% set primary = gallery[0] %}
+        <div class="mb-4">{% img primary.src, title %}</div>
+        {% if gallery.length > 1 %}
+          <div class="grid grid-cols-3 sm:grid-cols-4 gap-3">
+            {% for image in gallery %}
+              {% if not loop.first %}
+                <div class="border rounded overflow-hidden">{% img image.src, title, [300,600] %}</div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
       {% endif %}
     </div>
     <div>
-      <p class="text-lg">{{ content | safe }}</p>
+      <div class="text-lg leading-relaxed space-y-4">{{ content | safe }}</div>
       <p class="mt-4 text-xl"><span class="font-semibold">{{ price }}</span> {{ currency or 'CAD' }}</p>
+      {% if in_stock %}
+        <div class="mt-1 text-sm text-green-700">In stock</div>
+      {% endif %}
       {% if buy_url %}
         <a href="{{ buy_url }}" class="inline-block mt-4 bg-blue text-white px-4 py-2 rounded-md">Buy</a>
       {% endif %}

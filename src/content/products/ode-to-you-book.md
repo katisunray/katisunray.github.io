@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "An Ode to You, Our Baby"
 slug: "ode-to-you-baby-book"
 permalink: "/shop/{{ slug }}/index.html"
-price: 28
+price: 15
 currency: "CAD"
 type: "book"
 sku: "B-ODE-YOU"

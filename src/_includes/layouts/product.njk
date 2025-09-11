@@ -16,17 +16,18 @@ layout: layouts/base.njk
   }
 } %}
 
-<article class="py-8">
-  <a href="{{ '/shop/' | url }}" class="text-sm underline">← Back to Shop</a>
-  <h1 class="mt-2 text-3xl font-semibold">{{ title }}</h1>
-  {% set gallery = images | filterDetailImages %}
-  <div class="mt-6 grid md:grid-cols-2 gap-8 items-start">
-    <div>
-      {% if gallery and gallery.length %}
-        {% set primary = gallery[0] %}
-        <div class="mb-4">{% img primary.src, title %}</div>
+<article class="py-10">
+  <div class="container-custom">
+    <a href="{{ '/shop/' | url }}" class="text-sm underline text-neutral-600 hover:text-neutral-900">← Back to Shop</a>
+    <h1 class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight">{{ title }}</h1>
+    {% set gallery = images | filterDetailImages %}
+    <div class="mt-8 grid md:grid-cols-2 gap-10 lg:gap-16 items-start">
+      <div>
+        {% if gallery and gallery.length %}
+          {% set primary = gallery[0] %}
+        <div class="mb-4 max-w-xl">{% img primary.src, title %}</div>
         {% if gallery.length > 1 %}
-          <div class="grid grid-cols-3 sm:grid-cols-4 gap-3">
+          <div class="grid grid-cols-3 sm:grid-cols-4 gap-3 max-w-xl">
             {% for image in gallery %}
               {% if not loop.first %}
                 <div class="border rounded overflow-hidden">{% img image.src, title, [300,600] %}</div>
@@ -35,10 +36,10 @@ layout: layouts/base.njk
           </div>
         {% endif %}
       {% endif %}
-    </div>
-    <div>
-      <div class="text-lg leading-relaxed space-y-4">{{ content | safe }}</div>
-      <p class="mt-4 text-xl"><span class="font-semibold">{{ price }}</span> {{ currency or 'CAD' }}</p>
+      </div>
+      <div>
+      <div class="text-lg leading-relaxed space-y-4 max-w-prose">{{ content | safe }}</div>
+      <p class="mt-6 text-xl"><span class="font-semibold">{{ price }}</span> {{ currency or 'CAD' }}</p>
       {% if in_stock %}
         <div class="mt-1 text-sm text-green-700">In stock</div>
       {% endif %}
@@ -48,6 +49,7 @@ layout: layouts/base.njk
       {% if type %}
         <div class="mt-4 inline-block text-xs uppercase tracking-wide bg-beige px-2 py-1 rounded-md">{{ type }}</div>
       {% endif %}
+      </div>
     </div>
   </div>
 </article>

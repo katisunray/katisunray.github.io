@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["_site/**/*.html", "src/**/*.njk", "src/**/*.md"],
+  content: ["_site/**/*.html", "src/**/*.njk", "src/**/*.md", ".eleventy.js"],
   theme: {
     extend: {
       colors: {
@@ -89,4 +89,3 @@ module.exports = {
   },
   plugins: [],
 };
-

@@ -6,7 +6,7 @@
     "dev": "concurrently \"npm:watch:*\"",
     "watch:11ty": "eleventy --serve --quiet",
     "watch:css": "node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && postcss src/styles/input.css -o _site/assets/main.css --watch",
-    "build": "rimraf _site && node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && postcss src/styles/input.css -o _site/assets/main.css && eleventy"
+    "build": "rimraf _site && eleventy && node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && postcss src/styles/input.css -o _site/assets/main.css"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",

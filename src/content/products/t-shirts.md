@@ -9,7 +9,7 @@ type: "T-SHIRTS"
 sku: "TS-SOFT-UNISEX"
 collection_tags: ["apparel","gifts"]
 images:
-  - src: "/images/products/t-shirts/t-shirt.png"
+  - src: "/images/products/t-shirts/t-shirt.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=T-Shirt%20Order"
 in_stock: true
 seo:
@@ -20,3 +20,4 @@ seo:
 Soft cotton tees featuring our warm, family-inspired illustrations. Perfect for cozy days with your little ones or gifting to fellow caregivers.
 
 Available in limited runs—email us with your preferred size and design to order.
+

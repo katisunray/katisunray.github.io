@@ -9,7 +9,7 @@ type: "MUGS"
 sku: "MG-CERAMIC"
 collection_tags: ["home","gifts"]
 images:
-  - src: "/images/products/mugs/custom-mugs.png"
+  - src: "/images/products/mugs/custom-mugs.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Mug%20Order"
 in_stock: true
 seo:
@@ -20,3 +20,4 @@ seo:
 Ceramic mugs that feature tender illustrations to brighten morning rituals and late-night tea. Each mug is printed in small batches to keep things special.
 
 Email us with the design you love and your shipping address to place an order.
+

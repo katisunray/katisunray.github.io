@@ -9,7 +9,7 @@ type: "TOTE BAGS"
 sku: "TB-CANVAS"
 collection_tags: ["bags","gifts"]
 images:
-  - src: "/images/products/tote-bags/tote-bags.png"
+  - src: "/images/products/tote-bags/tote-bags.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Tote%20Bag%20Order"
 in_stock: true
 seo:
@@ -20,3 +20,4 @@ seo:
 Durable canvas tote bags made for carrying books, keepsakes, and the daily essentials that follow every family adventure.
 
 Email us with your favourite illustration and quantity to place an order.
+

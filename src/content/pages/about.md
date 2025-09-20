@@ -51,7 +51,7 @@ seo:
           <div class="text-center">
             <h2 class="text-3xl font-serif font-semibold text-gradient mb-6">Meet Kati Sunray</h2>
             <p class="text-lg text-neutral-700 leading-relaxed mb-6">
-              Founded by Kati Sunray — illustrator, mother of three, and emotional wellbeing specialist. Kati's work is inspired by real-life moments with her children and family, capturing the joy, wonder, and sometimes chaos of parenting.
+              Founded by Kati Sunray — author, illustrator, mother of three, and emotional wellbeing specialist. Kati's work is inspired by real-life moments with her children and family, capturing the joy, wonder, and sometimes chaos of parenting.
             </p>
             <p class="text-lg text-neutral-700 leading-relaxed">
               Her illustrations and writings serve as a heartfelt tribute to the simple, yet special moments shared together, reminding us all to embrace the present and find beauty in the everyday.
@@ -69,3 +69,4 @@ seo:
     </div>
   </div>
 </section>
+

@@ -42,6 +42,13 @@ module.exports = function (config) {
     if (format === "yyyy") return String(d.getUTCFullYear());
     return d.toISOString();
   });
+  config.addFilter("startsWith", (value, prefix, ignoreCase = true) => {
+    if (typeof value !== "string" || typeof prefix !== "string") return false;
+    if (ignoreCase) {
+      return value.toLowerCase().startsWith(prefix.toLowerCase());
+    }
+    return value.startsWith(prefix);
+  });
   config.addFilter("pluck", (arr, key) => Array.isArray(arr) ? arr.map((o) => o && o[key]).filter(Boolean) : []);
   // Filter placeholders from product detail gallery: if any non-SVG exists, only show non-SVGs
   config.addFilter("filterDetailImages", (arr) => {

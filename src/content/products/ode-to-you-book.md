@@ -4,6 +4,7 @@ title: "An Ode to You, Our Baby"
 slug: "ode-to-you-baby-book"
 permalink: "/shop/{{ slug }}/index.html"
 price: 15
+shop_list_order: 1
 currency: "CAD"
 type: "book"
 sku: "B-ODE-YOU"

@@ -4,6 +4,7 @@ title: "Mugs"
 slug: "mugs"
 permalink: "/shop/{{ slug }}/index.html"
 price: 40
+shop_list_order: 5
 currency: "CAD"
 type: "MUGS"
 sku: "MG-CERAMIC"

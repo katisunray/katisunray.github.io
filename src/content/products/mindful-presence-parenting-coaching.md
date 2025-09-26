@@ -4,6 +4,7 @@ title: "Mindful Presence & Parenting Coaching"
 slug: "mindful-presence-parenting-coaching"
 permalink: "/shop/{{ slug }}/index.html"
 price_label: "Programs available February 2026"
+shop_list_order: 8
 currency: ""
 sku: "COACHING-MPP"
 collection_tags: ["coaching","mindful-presence"]

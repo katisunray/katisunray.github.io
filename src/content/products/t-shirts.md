@@ -4,6 +4,7 @@ title: "T-Shirts"
 slug: "t-shirts"
 permalink: "/shop/{{ slug }}/index.html"
 price: 45
+shop_list_order: 6
 currency: "CAD"
 type: "T-SHIRTS"
 sku: "TS-SOFT-UNISEX"

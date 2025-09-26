@@ -4,6 +4,7 @@ title: "Tote Bags"
 slug: "tote-bags"
 permalink: "/shop/{{ slug }}/index.html"
 price: 35
+shop_list_order: 7
 currency: "CAD"
 type: "TOTE BAGS"
 sku: "TB-CANVAS"

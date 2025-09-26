@@ -4,6 +4,7 @@ title: "Mindful Presence & Parenting Workshops"
 slug: "mindful-presence-parenting-workshops"
 permalink: "/shop/{{ slug }}/index.html"
 price_label: "Workshops begin in the first half of 2026"
+shop_list_order: 9
 currency: ""
 sku: "WORKSHOP-MPP"
 collection_tags: ["workshops","mindful-presence"]

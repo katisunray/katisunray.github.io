@@ -4,6 +4,7 @@ title: "Greeting Cards 5 x 7 in"
 slug: "greeting-cards"
 permalink: "/shop/{{ slug }}/index.html"
 price: 8
+shop_list_order: 2
 currency: "CAD"
 sku: "GC-SET-5X7"
 collection_tags: ["cards","stationery"]

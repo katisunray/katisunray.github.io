@@ -4,6 +4,7 @@ title: "Custom Baby/Kid Illustration Art Print"
 slug: "custom-baby-kid-illustration"
 permalink: "/shop/{{ slug }}/index.html"
 price: 130
+shop_list_order: 4
 currency: "CAD"
 type: "CUSTOM BABY/KID ILLUSTRATION ART PRINT"
 sku: "CI-BABY-KID"

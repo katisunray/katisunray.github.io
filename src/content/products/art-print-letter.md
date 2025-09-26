@@ -4,6 +4,7 @@ title: "Art Print (Letter Size)"
 slug: "art-print"
 permalink: "/shop/{{ slug }}/index.html"
 price: 18
+shop_list_order: 3
 currency: "CAD"
 type: "ART PRINT"
 sku: "P-ART-LETTER"

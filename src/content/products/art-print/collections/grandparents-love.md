@@ -4,7 +4,7 @@ title: "Grandparents Love Collection"
 slug: "grandparents-love"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 4
+order: 8
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Keepsake prints honouring the hugs, wisdom, and play of grandparents."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

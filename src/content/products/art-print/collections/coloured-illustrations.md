@@ -4,7 +4,7 @@ title: "Coloured Illustrations Collection"
 slug: "coloured-illustrations"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 3
+order: 20
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Vibrant family scenes rendered in bold colour palettes."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

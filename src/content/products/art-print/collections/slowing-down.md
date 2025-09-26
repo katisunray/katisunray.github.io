@@ -4,7 +4,7 @@ title: "Slowing Down Collection"
 slug: "slowing-down"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 11
+order: 23
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Gentle reminders to savour cozy, unhurried days."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

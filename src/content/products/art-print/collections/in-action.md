@@ -4,7 +4,7 @@ title: "In Action Collection"
 slug: "in-action"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 6
+order: 4
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Dynamic scenes of caregivers moving, dancing, and showing up."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

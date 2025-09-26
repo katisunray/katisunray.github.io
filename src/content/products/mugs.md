@@ -3,7 +3,8 @@ layout: layouts/product.njk
 title: "Mugs"
 slug: "mugs"
 permalink: "/shop/{{ slug }}/index.html"
-price: 35
+price: 40
+shop_list_order: 5
 currency: "CAD"
 type: "MUGS"
 sku: "MG-CERAMIC"
@@ -19,5 +20,6 @@ seo:
 
 Ceramic mugs that feature tender illustrations to brighten morning rituals and late-night tea. Each mug is printed in small batches to keep things special.
 
-Email us with the design you love and your shipping address to place an order.
+Order timeline: 5-7 business days to process + shipping.
 
+Email us with the design you love and your shipping address to place an order.

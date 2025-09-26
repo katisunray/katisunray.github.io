@@ -4,19 +4,31 @@ title: "Greeting Cards 5 x 7 in"
 slug: "greeting-cards"
 permalink: "/shop/{{ slug }}/index.html"
 price: 8
+shop_list_order: 2
 currency: "CAD"
-type: "GREETING CARDS"
 sku: "GC-SET-5X7"
 collection_tags: ["cards","stationery"]
 images:
   - src: "/images/products/greeting-cards/greeting-cards-5x7.jpg"
-buy_url: "mailto:katisunray@gmail.com?subject=Greeting%20Cards%20Order"
 in_stock: true
+home_feature_order: 2
+collection_order_prompt: "Choose a collection below to view available SKUs and email us with the card code and quantity."
 seo:
   title: "Greeting Cards 5 x 7 in | Kati Sunray STUDIO"
   description: "5 x 7 in greeting cards featuring heartfelt illustrations."
 ---
 
-Capture simple family moments with 5 x 7 in greeting cards printed on thick matte stock. Each card comes with a matching envelope, ready for your handwritten notes.
+Celebrate the simple, precious moments of family life with 5 x 7 inches greeting
+cards printed on thick matte stock. Each card comes with a matching envelope, ready for your handwritten notes.
 
-Email us to browse available designs or to place a custom order.
+From baby showers to birthdays, each card is crafted to bring joy to parents,
+grandparents, aunts, uncles, and of course, the little ones who inspire it all.
+
+Designed and printed in Ontario, Canada.
+
+Explore the full collection in the links below.
+
+Order timeline: 5 business days to process + shipping (additional shipping cost)
+
+Email us for direct orders.
+

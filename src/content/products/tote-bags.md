@@ -4,6 +4,7 @@ title: "Tote Bags"
 slug: "tote-bags"
 permalink: "/shop/{{ slug }}/index.html"
 price: 35
+shop_list_order: 7
 currency: "CAD"
 type: "TOTE BAGS"
 sku: "TB-CANVAS"
@@ -19,5 +20,6 @@ seo:
 
 Durable canvas tote bags made for carrying books, keepsakes, and the daily essentials that follow every family adventure.
 
-Email us with your favourite illustration and quantity to place an order.
+Order timeline: 5-7 business days to process + shipping.
 
+Email us with your favourite illustration and quantity to place an order.

@@ -37,8 +37,9 @@ seo:
         Discover our carefully curated collection of meaningful gifts that celebrate the joy of family moments.
       </p>
     </div>
+    {% set featuredProducts = collections.products | sortByData('home_feature_order') %}
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      {% for p in collections.products %}
+      {% for p in featuredProducts %}
         {% if loop.index0 < 3 %}
           <div class="animate-fade-in" style="animation-delay: {{ loop.index0 * 0.1 }}s">
             {% productcard p %}
@@ -84,3 +85,4 @@ seo:
     </div>
   </div>
 </section>
+

@@ -31,7 +31,7 @@ seo:
 <!-- Products Grid -->
 <section class="section-padding bg-white">
   <div class="container-custom">
-    {% set items = collections.products %}
+    {% set items = collections.products | sortByData('shop_list_order') %}
     <p class="sr-only">Count: {{ items | length }}</p>
     
     {% if items and items.length %}

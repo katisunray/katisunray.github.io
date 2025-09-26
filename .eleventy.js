@@ -50,6 +50,10 @@ module.exports = function (config) {
     return value.startsWith(prefix);
   });
   config.addFilter("pluck", (arr, key) => Array.isArray(arr) ? arr.map((o) => o && o[key]).filter(Boolean) : []);
+  config.addFilter("encodeURIComponent", (value) => {
+    if (value === undefined || value === null) return "";
+    return encodeURIComponent(String(value));
+  });
   // Filter placeholders from product detail gallery: if any non-SVG exists, only show non-SVGs
   config.addFilter("filterDetailImages", (arr) => {
     if (!Array.isArray(arr)) return [];
@@ -58,6 +62,25 @@ module.exports = function (config) {
     const nonSvg = items.filter((it) => !/\.svg$/i.test(it._src));
     if (nonSvg.length) return nonSvg.map(({_src, ...rest}) => rest);
     return items.map(({_src, ...rest}) => rest);
+  });
+
+  config.addFilter("filterByData", (arr, key, value) => {
+    if (!Array.isArray(arr)) return [];
+    return arr.filter((item) => item && item.data && item.data[key] === value);
+  });
+  config.addFilter("sortByData", (arr, key) => {
+    if (!Array.isArray(arr)) return [];
+    return [...arr].sort((a, b) => {
+      const aVal = a && a.data && a.data[key];
+      const bVal = b && b.data && b.data[key];
+      if (aVal === bVal) return 0;
+      if (aVal === undefined) return 1;
+      if (bVal === undefined) return -1;
+      if (typeof aVal === 'number' && typeof bVal === 'number') {
+        return aVal - bVal;
+      }
+      return String(aVal).localeCompare(String(bVal));
+    });
   });
   config.addNunjucksAsyncShortcode("img", (src, alt, widths, sizes) => imgShortcode(src, alt, widths, sizes, pathPrefix));
   config.addNunjucksAsyncShortcode("productcard", async (product) => {
@@ -96,6 +119,19 @@ module.exports = function (config) {
     api
       .getFilteredByGlob("src/content/products/*.md")
       .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  );
+
+  config.addCollection("productCollections", (api) =>
+    api
+      .getFilteredByGlob("src/content/products/**/collections/*.md")
+      .sort((a, b) => {
+        const aOrder = a.data && a.data.order;
+        const bOrder = b.data && b.data.order;
+        if (aOrder !== undefined && bOrder !== undefined && aOrder !== bOrder) {
+          return aOrder - bOrder;
+        }
+        return (a.data.title || '').localeCompare(b.data.title || '');
+      })
   );
   return {
     dir: { input: "src", output: "_site", includes: "_includes" },

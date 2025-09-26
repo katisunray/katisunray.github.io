@@ -34,5 +34,3 @@ Celebrate the simple, precious moments of family life with soft cotton tees feat
   - Material: 100% cotton.
   - Recommended to choose a size bigger than your regular size due to normal shrinkage (≈5-7%).
 - Kids Gildan Heavy Cotton™ Youth T-shirt (classic fit for loose comfort — size 6 onwards).
-
-Email us to request sizing guidance or to join the waitlist for the next print run.

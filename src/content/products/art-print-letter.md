@@ -6,12 +6,10 @@ permalink: "/shop/{{ slug }}/index.html"
 price: 18
 shop_list_order: 3
 currency: "CAD"
-type: "ART PRINT"
 sku: "P-ART-LETTER"
 collection_tags: ["art-print","home"]
 images:
   - src: "/images/products/arts-prints/art-prints-5x7.jpg"
-buy_url: "mailto:katisunray@gmail.com?subject=Art%20Print%20Order"
 in_stock: true
 home_feature_order: 3
 seo:

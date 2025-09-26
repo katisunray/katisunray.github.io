@@ -19,5 +19,6 @@ seo:
 
 Durable canvas tote bags made for carrying books, keepsakes, and the daily essentials that follow every family adventure.
 
-Email us with your favourite illustration and quantity to place an order.
+Order timeline: 5-7 business days to process + shipping.
 
+Email us with your favourite illustration and quantity to place an order.

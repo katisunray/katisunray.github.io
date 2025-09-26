@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Mindful Presence & Parenting Workshops</title>
+  <desc id="desc">Placeholder artwork for mindful presence & parenting workshops offering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7e8ba" />
+      <stop offset="1" stop-color="#94cadf" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" rx="32" />
+  <g fill="#1f3e49" font-family="'Arial', 'Helvetica', sans-serif" text-anchor="middle">
+    <text x="400" y="260" font-size="48" font-weight="600">Mindful Presence & Parenting Workshops</text>
+    <text x="400" y="340" font-size="28">Visual coming soon</text>
+  </g>
+</svg>

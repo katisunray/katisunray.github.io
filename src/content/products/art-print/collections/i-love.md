@@ -4,7 +4,7 @@ title: "I Love Collection"
 slug: "i-love"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 5
+order: 1
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Declarations of love for every special person in the family tree."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

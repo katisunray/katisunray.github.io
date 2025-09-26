@@ -4,7 +4,7 @@ title: "Precious Moments Collection"
 slug: "precious-moments"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 10
+order: 22
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Collage-style illustrations capturing keepsake family memories."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

@@ -4,7 +4,7 @@ title: "Mindful Presence Collection"
 slug: "mindful-presence"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 7
+order: 5
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Reflective visuals encouraging you to pause and soak up the moment."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

@@ -4,7 +4,7 @@ title: "Thoughtful Messages for Baby Collection"
 slug: "thoughtful-messages-for-baby"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 12
+order: 2
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Encouraging words to wrap babies and kids in love."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

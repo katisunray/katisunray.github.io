@@ -4,7 +4,7 @@ title: "Mom & Dad Love Collection"
 slug: "mom-dad-love"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 8
+order: 7
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Tender tributes to the parenting duo keeping everything together."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

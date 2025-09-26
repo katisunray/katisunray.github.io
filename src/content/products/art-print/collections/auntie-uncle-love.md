@@ -4,7 +4,7 @@ title: "Auntie & Uncle Love Collection"
 slug: "auntie-uncle-love"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 2
+order: 10
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Playful tributes to the aunties and uncles who cheer on every milestone."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

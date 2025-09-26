@@ -4,7 +4,7 @@ title: "Art Painting Collection"
 slug: "art-painting"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 1
+order: 11
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Radiant sunset gradients to bring a warm horizon into any room."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

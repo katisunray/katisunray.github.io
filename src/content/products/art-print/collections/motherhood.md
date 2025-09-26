@@ -4,7 +4,7 @@ title: "Motherhood Collection"
 slug: "motherhood"
 parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
-order: 9
+order: 21
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Affirmations for every chapter of the motherhood journey."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

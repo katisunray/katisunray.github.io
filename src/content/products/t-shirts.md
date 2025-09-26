@@ -11,7 +11,6 @@ sku: "TS-SOFT-UNISEX"
 collection_tags: ["apparel","gifts"]
 images:
   - src: "/images/products/t-shirts/t-shirts-collection-hero.jpg"
-  - src: "/images/products/t-shirts/t-shirt.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=T-Shirt%20Order"
 in_stock: true
 seo:

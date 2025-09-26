@@ -14,6 +14,7 @@ images:
   - src: "/images/products/ode-to-you/detail-1.svg"
 buy_url: "https://a.co/d/2uVtlP3"
 in_stock: true
+home_feature_order: 1
 seo:
   title: "An Ode to You, Our Baby | Kati Sunray STUDIO"
   description: "A heartfelt poetic nursery book by Kati Sunray."
@@ -26,3 +27,4 @@ A poetic book for babies, toddlers, and new parents that cherishes every child a
 A must-have for the nursery shelf!
 
 Kati Sunray is an author and mother of three. Inspired by real-life moments with her children and family, she wrote this book to capture their cherished experiences. She also painted the illustrations as a heartfelt tribute to these simple, yet special moments shared together.
+

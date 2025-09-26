@@ -49,9 +49,9 @@ layout: layouts/base.njk
         <div class="mt-1 text-sm text-green-700">In stock</div>
       {% endif %}
       {% if buy_url %}
+        {% set buyLabel = buy_button_label or 'Buy' %}
         {% set lowerUrl = buy_url | lower %}
-        {% set buyLabel = 'Buy' %}
-        {% if lowerUrl and (lowerUrl | startsWith('mailto:')) %}
+        {% if not buy_button_label and lowerUrl and (lowerUrl | startsWith('mailto:')) %}
           {% set buyLabel = 'Order by Email' %}
         {% endif %}
         <a href="{{ buy_url }}" class="btn-primary inline-block mt-4">{{ buyLabel }}</a>

@@ -12,6 +12,7 @@ images:
   - src: "/images/products/mindful-presence-coaching/mindful-presence-coaching.jpg"
   - src: "/images/products/mindful-presence-coaching/hero.svg"
 buy_url: "mailto:katisunray@gmail.com?subject=Mindful%20Presence%20%26%20Parenting%20Coaching%20Waitlist"
+buy_button_label: "Request more information"
 in_stock: false
 seo:
   title: "Mindful Presence & Parenting Coaching | Kati Sunray STUDIO"

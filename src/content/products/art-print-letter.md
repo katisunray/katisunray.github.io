@@ -9,7 +9,6 @@ currency: "CAD"
 sku: "P-ART-LETTER"
 collection_tags: ["art-print","home"]
 images:
-  - src: "/images/products/arts-prints/HERO Art Prints_revised.jpg"
   - src: "/images/products/arts-prints/art-prints-5x7.jpg"
 in_stock: true
 home_feature_order: 1

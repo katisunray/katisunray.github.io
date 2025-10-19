@@ -9,7 +9,7 @@ permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Gentle reminders to savour cozy, unhurried days."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
-  src: "/images/products/arts-prints/collections/ART PRINT - Collection Slowing Down revised.jpg"
+  src: "/images/products/arts-prints/collections/ART PRINT - Collection ‘Slowing Down’.jpg"
   alt: "Framed Slowing Down art prints in lavender and warm neutrals."
 skus:
   - id: "KO546-P21"

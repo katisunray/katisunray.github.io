@@ -9,7 +9,7 @@ permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Reflective visuals encouraging you to pause and soak up the moment."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
-  src: "/images/products/arts-prints/collections/ART PRINT - Collection Mindful Presence revised.jpg"
+  src: "/images/products/arts-prints/collections/ART PRINT - Collection ‘Mindful Presence’.jpg"
   alt: "Framed Mindful Presence art prints in serene greens and yellows."
 skus:
   - id: "KO546-P03"

@@ -73,7 +73,7 @@ layout: layouts/base.njk
           {% for collection in linkedCollections %}
             <a href="{{ collection.url }}" class="group block border rounded-xl overflow-hidden bg-white hover:shadow-lg transition-shadow focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-600">
               {% if collection.data.hero_image and collection.data.hero_image.src %}
-                <div class="aspect-[4/3] bg-gray-100 overflow-hidden">
+                <div class="aspect-[4/3] bg-gray-100 overflow-hidden media-contain">
                   {% img collection.data.hero_image.src, collection.data.hero_image.alt or ('Preview of ' ~ collection.data.title), [640, 960, 1280], '(min-width: 1024px) 40vw, 100vw' %}
                 </div>
               {% endif %}
@@ -126,6 +126,11 @@ layout: layouts/base.njk
                         {% if sku.name %}
                           <p class="text-base font-medium">{{ sku.name }}</p>
                         {% endif %}
+                        {% set skuPrice = sku.price or price %}
+                        {% set skuCurrency = sku.currency or currency or 'CAD' %}
+                        {% if skuPrice %}
+                          <p class="text-sm font-semibold text-brand-600">${{ skuPrice }} {{ skuCurrency }}</p>
+                        {% endif %}
                         {% if sku.message %}
                           <p class="text-sm text-slate-600">{{ sku.message }}</p>
                         {% endif %}
@@ -138,6 +143,7 @@ layout: layouts/base.njk
 Hi Kati,
 
 I would like to order SKU {{ sku.id }} (Quantity: ___).
+Price: ${{ skuPrice }} {{ skuCurrency }}
 
 Thank you!
                           {% endset %}

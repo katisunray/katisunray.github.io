@@ -14,21 +14,25 @@ hero_image:
 skus:
   - id: "KO546-G08"
     name: "Daddy in Action"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-in-action/KO546-G08_Greeting card 5x7 _Collection In Action_Daddy in action_hold 2 hands_green.jpg"
       alt: "Greeting card celebrating Daddy in action with a bright green background and hand-in-hand illustration."
   - id: "KO546-G09"
     name: "Grandma in Action"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-in-action/KO546-G09_Greeting card 5x7 _Collection In Action_Grandma in action_newborn snuggle_orange.jpg"
       alt: "Greeting card featuring Grandma in action snuggling a newborn on a bold orange wash."
   - id: "KO546-G10"
     name: "Grandpa in Action"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-in-action/KO546-G10_Greeting card 5x7 _Collection In Action_Grandpa in action_hold hands_coloured grey.jpg"
       alt: "Greeting card showing Grandpa in action holding hands with a child against a soft grey."
   - id: "KO546-G23"
     name: "Mama in Action"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-in-action/KO546-G23_Greeting card 5x7 _Collection In Action_Mama in action_touch mom face_red pastel.jpg"
       alt: "Greeting card with Mama in action text and a gentle cheek touch on a rosy red background."

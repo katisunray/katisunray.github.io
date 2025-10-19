@@ -22,7 +22,7 @@ Celebrate the simple, precious moments of family life with soft cotton tees feat
 
 - Thoughtfully designed and printed in Ontario, Canada.
 - Explore the collections in the links below.
-- Order timeline: 5-7 business days to process + shipping (additional shipping cost).
+- Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
 - Available in limited runs — email us with your preferred size, color, and design to order.
 
 **Details**
@@ -32,5 +32,5 @@ Celebrate the simple, precious moments of family life with soft cotton tees feat
 - Adults Gildan Softstyle Unisex T-shirt (Gildan 64000)
   - Semi-fit, crew neck, short sleeve.
   - Material: 100% cotton.
-  - Recommended to choose a size bigger than your regular size due to normal shrinkage (≈5-7%).
+  - Recommended to choose a size bigger than your regular size due to normal shrinkage (~5-7%).
 - Kids Gildan Heavy Cotton™ Youth T-shirt (classic fit for loose comfort — size 6 onwards).

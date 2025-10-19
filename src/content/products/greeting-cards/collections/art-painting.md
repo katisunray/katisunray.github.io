@@ -14,21 +14,25 @@ hero_image:
 skus:
   - id: "KO546-G04"
     name: "Sunset painting"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-art-painting/KO546-G04_Greeting card 5x7 _Collection Art Painting_Blank_Sunset painting.jpg"
       alt: "Greeting card with a sunset painting illustration and blank interior."
   - id: "KO546-G14"
     name: "Sunset painting"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-art-painting/KO546-G14_Greeting card 5x7 _Collection Art Painting_Happy Bday_Sunset painting.jpg"
       alt: "Happy Birthday greeting card with a sunset painting illustration."
   - id: "KO546-G16"
     name: "Sunset painting"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-art-painting/KO546-G16_Greeting card 5x7 _Collection Art Painting_Happy Thanksgiving_Sunset painting.jpg"
       alt: "Happy Thanksgiving greeting card with a sunset painting illustration."
   - id: "KO546-G31"
     name: "Sunset painting"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-art-painting/KO546-G31_Greeting card 5x7 _Collection Art Painting_Thank you_Sunset painting.jpg"
       alt: "Thank you greeting card with a sunset painting illustration."

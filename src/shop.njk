@@ -15,7 +15,7 @@ seo:
         Shop
       </h1>
       <p class="text-xl text-neutral-700 leading-relaxed mb-8">
-        Thoughtful gifts for baby, kids & parents. Each piece is carefully crafted to celebrate the beautiful moments of family life.
+        Thoughtful gifts for baby, parents & extended family. Each piece is carefully crafted to celebrate the beautiful moments of family life.
       </p>
       <div class="inline-flex items-center gap-2 text-sm text-neutral-600 bg-white/50 backdrop-blur-sm px-4 py-2 rounded-full">
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -32,18 +32,61 @@ seo:
 <section class="section-padding bg-white">
   <div class="container-custom">
     {% set items = collections.products | sortByData('shop_list_order') %}
-    <p class="sr-only">Count: {{ items | length }}</p>
+    {% set totalCount = items | length %}
+
+    <div class="max-w-3xl mx-auto mb-12">
+      <label for="shop-search" class="block text-sm font-medium text-neutral-700 mb-2">
+        Looking for something specific?
+      </label>
+      <div class="relative">
+        <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-neutral-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18a7.5 7.5 0 006.15-3.35z"></path>
+        </svg>
+        <input
+          id="shop-search"
+          type="search"
+          name="query"
+          autocomplete="off"
+          placeholder="Search by product name, category, or keywords..."
+          class="w-full rounded-2xl border border-neutral-200 bg-white px-12 py-3 text-base shadow-sm focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-300"
+          data-shop-search
+          aria-describedby="shop-search-status"
+        />
+        <button type="button" class="absolute right-3 top-1/2 -translate-y-1/2 px-3 py-1 text-sm text-brand-600 hover:text-brand-700 rounded-full bg-brand-50/70 hover:bg-brand-100 hidden" data-search-clear>
+          Clear
+        </button>
+      </div>
+      <p id="shop-search-status" class="mt-3 text-sm text-neutral-600" aria-live="polite">
+        Showing {{ totalCount }} product{% if totalCount != 1 %}s{% endif %}.
+      </p>
+    </div>
     
     {% if items and items.length %}
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8" data-search-grid>
         {% for p in items %}
-          <div class="animate-fade-in" style="animation-delay: {{ loop.index0 * 0.1 }}s">
+          {% set searchString = (p.data.title or '') ~ ' ' ~ (p.data.type or '') ~ ' ' ~ (p.data.description or '') ~ ' ' ~ (p.data.slug or '') ~ ' ' ~ (p.data.collection_tags and (p.data.collection_tags | join(' ')) or '') ~ ' ' ~ (p.data.price and ('$' ~ p.data.price) or '') %}
+          <div
+            class="animate-fade-in"
+            style="animation-delay: {{ loop.index0 * 0.1 }}s"
+            data-search-item
+            data-search-text="{{ searchString | lower | escape }}"
+          >
             {% productcard p %}
           </div>
         {% endfor %}
       </div>
+
+      <div class="mt-8 hidden text-center" data-search-empty>
+        <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-neutral-100 text-neutral-500">
+          <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 0112 15h6a3 3 0 110 6H9a4 4 0 01-4-4V9a7 7 0 0114 0v2"></path>
+          </svg>
+        </div>
+        <p class="text-lg font-semibold text-neutral-900">No matching products yet.</p>
+        <p class="mt-2 text-neutral-600">Try a different search term or browse the full collection below.</p>
+      </div>
       
-      <!-- Shop Info -->
+<!-- Shop Info -->
       <div class="mt-16 text-center">
         <div class="max-w-2xl mx-auto">
           <h2 class="text-3xl font-serif font-semibold text-gradient mb-4">
@@ -71,3 +114,52 @@ seo:
     {% endif %}
   </div>
 </section>
+
+<script>
+(function () {
+  const searchInput = document.querySelector('[data-shop-search]');
+  if (!searchInput) return;
+
+  const items = Array.from(document.querySelectorAll('[data-search-item]'));
+  const statusEl = document.querySelector('[data-search-status]');
+  const emptyState = document.querySelector('[data-search-empty]');
+  const clearBtn = document.querySelector('[data-search-clear]');
+
+  function update(query) {
+    const normalized = (query || '').toLowerCase().replace(/\s+/g, ' ').trim();
+    let visibleCount = 0;
+
+    items.forEach((item) => {
+      const haystack = (item.getAttribute('data-search-text') || '').trim();
+      const match = !normalized || haystack.includes(normalized);
+      item.classList.toggle('hidden', !match);
+      if (match) visibleCount += 1;
+    });
+
+    if (statusEl) {
+      const suffix = visibleCount === 1 ? '' : 's';
+      statusEl.textContent = `Showing ${visibleCount} product${suffix}.`;
+    }
+
+    if (emptyState) {
+      emptyState.classList.toggle('hidden', visibleCount !== 0);
+    }
+
+    if (clearBtn) {
+      clearBtn.classList.toggle('hidden', !normalized);
+    }
+  }
+
+  update(searchInput.value || '');
+
+  searchInput.addEventListener('input', (event) => update(event.target.value));
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      searchInput.focus();
+      update('');
+    });
+  }
+})();
+</script>

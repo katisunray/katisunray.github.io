@@ -4,7 +4,7 @@ title: "Custom Baby/Kid Illustration Art Print"
 slug: "custom-baby-kid-illustration"
 permalink: "/shop/{{ slug }}/index.html"
 price: 130
-shop_list_order: 4
+shop_list_order: 3
 currency: "CAD"
 type: "CUSTOM BABY/KID ILLUSTRATION ART PRINT"
 sku: "CI-BABY-KID"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/custom-illustrations/custom-illustration-5x7.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Custom%20Illustration%20Order"
 in_stock: true
+home_feature_order: 3
 seo:
   title: "Custom Baby/Kid Illustration Art Print | Kati Sunray STUDIO"
   description: "Handmade coloured pencils illustration transformed from your favourite photo."

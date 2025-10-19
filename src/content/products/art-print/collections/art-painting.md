@@ -14,11 +14,13 @@ hero_image:
 skus:
   - id: "KO546-P50"
     name: "Sunset Painting Bleeding"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-art-painting/KO546-P50_Art print 8.5x11_Collection Art Painting_Sunset painting bleeding.jpg"
       alt: "Art print titled \"Sunset Painting Bleeding\" from the Art Painting Collection."
   - id: "KO546-P51"
     name: "Sunset Painting With White Frame"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-art-painting/KO546-P51_Art print 8.5x11_Collection Art Painting_Sunset painting with white frame.jpg"
       alt: "Art print titled \"Sunset Painting With White Frame\" from the Art Painting Collection."

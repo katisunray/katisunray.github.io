@@ -14,21 +14,25 @@ hero_image:
 skus:
   - id: "KO546-P01"
     name: "Always Be Here For You (Pinching Fingers, Sunset)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P01_Art print 8.5x11_Collection Thoughtful Messages for BabyKid_ALways be here for you -  Pinching fingers - sunset.jpg"
       alt: "Art print titled \"Always Be Here For You (Pinching Fingers, Sunset)\" from the Thoughtful Messages for Baby Collection."
   - id: "KO546-P02"
     name: "Be You (Chubby Feet, Waves)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P02_Art print 8.5x11_Collection Thoughtful Messages for BabyKid_Be you - Chubby feet - Waves.jpg"
       alt: "Art print titled \"Be You (Chubby Feet, Waves)\" from the Thoughtful Messages for Baby Collection."
   - id: "KO546-P29"
     name: "Magnificent You (Feet In 1 Hand, Purple Sky)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P29_Art print 8.5x11_Collection Thoughtful Messages for BabyKid_Magnificent You - Feet In 1 Hand - Purple Sky.jpg"
       alt: "Art print titled \"Magnificent You (Feet In 1 Hand, Purple Sky)\" from the Thoughtful Messages for Baby Collection."
   - id: "KO546-P53"
     name: "Welcome World (Heart Feet)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P53_Art print 8.5x11_Collection Thoughtful Messages for BabyKid_Welcome world_heart feet_purple sky.jpg"
       alt: "Art print titled \"Welcome World (Heart Feet)\" with heart feet purple sky illustration."

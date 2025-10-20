@@ -8,6 +8,10 @@ layout: layouts/base.njk
 {% endif %}
 {% set orderEmail = order_email or (site and site.author and site.author.email) or 'katisunray@gmail.com' %}
 {% set subjectPrefix = order_subject_prefix or 'Greeting Card Order' %}
+{% set matchingProducts = collections.products | filterByData('slug', parentSlug) %}
+{% set parentProduct = matchingProducts and matchingProducts[0] %}
+{% set parentCurrency = parentProduct and parentProduct.data and parentProduct.data.currency or 'CAD' %}
+{% set parentPrice = parentProduct and parentProduct.data and parentProduct.data.price %}
 
 <article class="py-10">
   <div class="container-custom">
@@ -16,7 +20,7 @@ layout: layouts/base.njk
     <div class="mt-8 grid gap-8 md:grid-cols-[minmax(0,1fr)]">
       <div class="md:grid md:grid-cols-2 md:items-start md:gap-10">
         {% if hero_image and hero_image.src %}
-          <div class="rounded-xl overflow-hidden border bg-gray-50">
+          <div class="rounded-xl overflow-hidden border bg-gray-50 media-contain">
             {% img hero_image.src, hero_image.alt or (title ~ ' hero image'), [640, 960, 1280], '(min-width: 1024px) 40vw, 100vw' %}
           </div>
         {% endif %}
@@ -50,6 +54,11 @@ layout: layouts/base.njk
                 {% if sku.name %}
                   <p class="text-base font-medium">{{ sku.name }}</p>
                 {% endif %}
+                {% set skuPrice = sku.price or parentPrice %}
+                {% set skuCurrency = sku.currency or parentCurrency %}
+                {% if skuPrice %}
+                  <p class="text-sm font-semibold text-brand-600">${{ skuPrice }} {{ skuCurrency }}</p>
+                {% endif %}
                 {% if sku.message %}
                   <p class="text-sm text-slate-600">{{ sku.message }}</p>
                 {% endif %}
@@ -62,6 +71,7 @@ layout: layouts/base.njk
 Hi Kati,
 
 I would like to order SKU {{ sku.id }} (Quantity: ___).
+Price: ${{ skuPrice or parentPrice }} {{ skuCurrency }}
 
 Thank you!
                   {% endset %}

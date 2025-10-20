@@ -4,7 +4,7 @@ title: "An Ode to You, Our Baby"
 slug: "ode-to-you-baby-book"
 permalink: "/shop/{{ slug }}/index.html"
 price: 15
-shop_list_order: 1
+shop_list_order: 2
 currency: "CAD"
 type: "book"
 sku: "B-ODE-YOU"
@@ -15,7 +15,7 @@ images:
   - src: "/images/products/ode-to-you/detail-1.svg"
 buy_url: "https://a.co/d/2uVtlP3"
 in_stock: true
-home_feature_order: 1
+home_feature_order: 2
 seo:
   title: "An Ode to You, Our Baby | Kati Sunray STUDIO"
   description: "A heartfelt poetic nursery book by Kati Sunray."

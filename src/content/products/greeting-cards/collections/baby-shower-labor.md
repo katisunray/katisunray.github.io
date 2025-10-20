@@ -14,16 +14,19 @@ hero_image:
 skus:
   - id: "KO546-G02"
     name: "Baby Shower"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G02_Greeting card 5x7 _Collection Baby Shower & Labor_Baby Shower -Flower, Newborn Swaddle, Love ones_yellow lightie, pinching.jpg"
       alt: "Baby shower greeting card with a swaddled newborn surrounded by blooming flowers and family hands."
   - id: "KO546-G18"
     name: "Love Auntie"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G18_Greeting card 5x7 _Collection Auntie & Uncle love_Love auntie_chubby legs front_coloured yellow back.jpg"
       alt: 'Greeting card reading "Love Auntie" with a sunny yellow background and baby legs illustration.'
   - id: "KO546-G35"
     name: "Wishing Precious Moments"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G35_Greeting card 5x7 _Collection Baby Shower & Labor_Wishing precious moments_Collection arts_white.jpg"
       alt: "Greeting card that reads 'Wishing precious moments' with soft abstract watercolor strokes."

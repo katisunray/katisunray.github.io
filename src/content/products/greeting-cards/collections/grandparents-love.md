@@ -14,26 +14,31 @@ hero_image:
 skus:
   - id: "KO546-G06"
     name: "Congrats Grandbaby"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-grandparents-love/KO546-G06_Greeting card 5x7 _Collection Grandparents Love_Congrats grandbaby_love onesie_baby blue.jpg"
       alt: "Greeting card congratulating a new grandbaby with a baby onesie illustration on sky blue."
   - id: "KO546-G09"
     name: "Grandma in Action"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-grandparents-love/KO546-G09_Greeting card 5x7 _Collection Grandparents Love_Grandma in action_newborn snuggle_orange.jpg"
       alt: "Greeting card showing grandma in action with a newborn cuddle on a warm orange background."
   - id: "KO546-G10"
     name: "Grandpa in Action"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-grandparents-love/KO546-G10_Greeting card 5x7 _Collection Grandparents Love_Grandpa in action_hold hands_coloured grey.jpg"
       alt: "Greeting card featuring grandpa holding hands with a little one against a soft grey background."
   - id: "KO546-G11"
     name: "Grandparents You Are Loved"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-grandparents-love/KO546-G11_Greeting card 5x7 _Collection Grandparents Love_Grandparents you are loved_newborn snuggle_purple sky.jpg"
       alt: "Greeting card reading Grandparents you are loved with a purple sky embrace illustration."
   - id: "KO546-G20"
     name: "Love Grandpas"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-grandparents-love/KO546-G20_Greeting card 5x7 _Collection Grandparents Love_Love grandpas_chubby legs front_coloured yellow back.jpg"
       alt: "Greeting card that says Love grandpas with a playful baby legs illustration on yellow."

@@ -60,5 +60,16 @@
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
-}
 
+  .media-contain {
+    @apply relative flex items-center justify-center;
+  }
+
+  .media-contain picture {
+    @apply flex items-center justify-center w-full h-full;
+  }
+
+  .media-contain img {
+    @apply w-full h-full object-contain;
+  }
+}

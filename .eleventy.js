@@ -102,7 +102,7 @@ module.exports = function (config) {
     }
     return `
 <a class="block group rounded-md overflow-hidden border hover:shadow-md transition" href="${url}">
-  <div class="aspect-[4/3] bg-gray-100 overflow-hidden">${imageHtml}</div>
+  <div class="aspect-[4/3] bg-gray-100 overflow-hidden media-contain">${imageHtml}</div>
   <div class="p-3">
     <div class="flex items-center justify-between">
       <h3 class="font-medium group-hover:underline">${d.title || ''}</h3>

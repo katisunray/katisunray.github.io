@@ -1,5 +1,5 @@
 <a class="card group block overflow-hidden" href="{{ product.url | url }}">
-  <div class="aspect-[4/3] bg-gradient-to-br from-neutral-100 to-neutral-200 overflow-hidden relative">
+  <div class="aspect-[4/3] bg-gradient-to-br from-neutral-100 to-neutral-200 overflow-hidden relative media-contain">
     {% if product.data.images and product.data.images.length %}
       {% img product.data.images[0].src, product.data.title, [400,800,1200], "(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 100vw" %}
     {% else %}

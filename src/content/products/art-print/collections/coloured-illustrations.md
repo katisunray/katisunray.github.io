@@ -14,21 +14,25 @@ hero_image:
 skus:
   - id: "KO546-P34"
     name: "Newborn Snuggle Coloured"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P34_Art print 8.5x11_Collection Coloured Illustrations_Newborn Snuggle Coloured.jpg"
       alt: "Art print titled \"Newborn Snuggle Coloured\" from the Coloured Illustrations Collection."
   - id: "KO546-P36"
     name: "Only Chubby Legs Front (Yellow Coloured Back)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P36_Art print 8.5x11_Collection Coloured Illustrations_Only Chubby Legs Front - Yellow Coloured Back.jpg"
       alt: "Art print titled \"Only Chubby Legs Front (Yellow Coloured Back)\" from the Coloured Illustrations Collection."
   - id: "KO546-P47"
     name: "Seizing Precious Moments (Pinching Fingers)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P47_Art print 8.5x11_Collection Mindful Presence_Seizing precious moments_Pinching fingers_white.jpg"
       alt: "Art print titled \"Seizing Precious Moments (Pinching Fingers)\" with pinching fingers white illustration."
   - id: "KO546-P52"
     name: "Touch Mom Face COLOURED"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P52_Art print 8.5x11_Collection Coloured Illustrations_Touch Mom face COLOURED .jpg"
       alt: "Art print titled \"Touch Mom Face COLOURED\" from the Coloured Illustrations Collection."

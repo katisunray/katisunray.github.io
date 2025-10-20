@@ -14,21 +14,25 @@ hero_image:
 skus:
   - id: "KO546-P21"
     name: "Joy Raising Tiny Humans (Collection Colour Illus, White)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-slowing-down/KO546-P21_Art print 8.5x11_Collection Slowing Down_Joy Raising Tiny Humans - Collection Colour Illus - White.jpg"
       alt: "Art print titled \"Joy Raising Tiny Humans (Collection Colour Illus, White)\" from the Slowing Down Collection."
   - id: "KO546-P28"
     name: "Love Simple Days (Collection Illus, Beige)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-slowing-down/KO546-P28_Art print 8.5x11_Collection Slowing Down_Love Simple Days - Collection Illus - Beige.jpg"
       alt: "Art print titled \"Love Simple Days (Collection Illus, Beige)\" from the Slowing Down Collection."
   - id: "KO546-P37"
     name: "Ordinary Moments (Collection Colour, Light Red)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-slowing-down/KO546-P37_Art print 8.5x11_Collection Slowing Down_Ordinary Moments - Collection Colour - Light Red.jpg"
       alt: "Art print titled \"Ordinary Moments (Collection Colour, Light Red)\" from the Slowing Down Collection."
   - id: "KO546-P49"
     name: "Slowing Down- Touch Mom Face (Light Purple)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-slowing-down/KO546-P49_Art print 8.5x11_Collection Slowing Down_Slowing down- touch mom face_light purple.jpg"
       alt: "Art print titled \"Slowing Down- Touch Mom Face (Light Purple)\" with light purple illustration."

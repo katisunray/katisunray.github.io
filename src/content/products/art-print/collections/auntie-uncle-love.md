@@ -14,11 +14,13 @@ hero_image:
 skus:
   - id: "KO546-P13"
     name: "I Love My Auntie (Chubby Legs Front)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-auntie-uncle-love/KO546-P13_Art print 8.5x11_Collection Auntie & Uncle Love_I love my auntie_chubby legs front_yellow coloured.jpg"
       alt: "Art print titled \"I Love My Auntie (Chubby Legs Front)\" with chubby legs front yellow coloured illustration."
   - id: "KO546-P14"
     name: "I Love My Auntie (Hi5)"
+    price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-auntie-uncle-love/KO546-P14_Art print 8.5x11_Collection Auntie & Uncle Love_I love my auntie_hi5_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Auntie (Hi5)\" with hi5 orange coloured illustration."

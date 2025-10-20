@@ -14,11 +14,13 @@ hero_image:
 skus:
   - id: "KO546-G18"
     name: "Love Auntie"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-auntie-uncle-love/KO546-G18_Greeting card 5x7 _Collection Auntie & Uncle love_Love auntie_chubby legs front_coloured yellow back.jpg"
       alt: 'Greeting card reading "Love Auntie" with bright yellow background and baby feet illustration.'
   - id: "KO546-G22"
     name: "Love Uncle"
+    price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-auntie-uncle-love/KO546-G22_Greeting card 5x7 _Collection Auntie & Uncle love_Love uncle_chubby legs front_coloured yellow back.jpg"
       alt: 'Greeting card reading "Love Uncle" with pastel yellow backdrop and playful baby legs.'

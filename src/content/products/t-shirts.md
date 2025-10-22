@@ -4,7 +4,7 @@ title: "T-Shirts"
 slug: "t-shirts"
 permalink: "/shop/{{ slug }}/index.html"
 price: 45
-shop_list_order: 6
+shop_list_order: 11
 currency: "CAD"
 type: "T-SHIRTS"
 sku: "TS-SOFT-UNISEX"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/t-shirts/t-shirts-collection-hero.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=T-Shirt%20Order"
 in_stock: true
+home_feature_order: 11
 seo:
   title: "T-Shirts | Kati Sunray STUDIO"
   description: "Soft cotton tees featuring warm, family-inspired illustrations."

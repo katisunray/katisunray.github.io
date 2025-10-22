@@ -4,7 +4,7 @@ title: "Kids' T-Shirts"
 slug: "kids-t-shirts"
 permalink: "/shop/{{ slug }}/index.html"
 price: 45
-shop_list_order: 10
+shop_list_order: 7
 currency: "CAD"
 type: "KIDS' T-SHIRTS"
 sku: "TS-KIDS"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/kids-t-shirts/kids-t-shirts.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Kids%20T-Shirt%20Order"
 in_stock: true
+home_feature_order: 7
 seo:
   title: "Kids' T-Shirts | Kati Sunray STUDIO"
   description: "Soft cotton tees for kids featuring family-inspired illustrations."

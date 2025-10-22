@@ -9,7 +9,7 @@ permalink: "/shop/greeting-cards/collections/{{ slug }}/index.html"
 summary: "Thoughtful cards for expressing heartfelt thanks to friends, family, and community."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
-  src: "/images/products/greeting-cards/collections/GREETING CARDS - Collection Thank You.jpg"
+  src: "/images/products/greeting-cards/collections/GREETING CARDS - Collection Thank you.jpg"
   alt: "Greeting cards featuring warm thank-you messages and illustrations."
 skus:
   - id: "KO546-G24"

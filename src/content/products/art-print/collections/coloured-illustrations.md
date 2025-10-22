@@ -24,12 +24,12 @@ skus:
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P36_Art print 8.5x11_Collection Coloured Illustrations_Only Chubby Legs Front - Yellow Coloured Back.jpg"
       alt: "Art print titled \"Only Chubby Legs Front (Yellow Coloured Back)\" from the Coloured Illustrations Collection."
-  - id: "KO546-P47"
-    name: "Seizing Precious Moments (Pinching Fingers)"
+  - id: "KO546-P38"
+    name: "Pinching Fingers (Coloured)"
     price: 18
     image:
-      src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P47_Art print 8.5x11_Collection Mindful Presence_Seizing precious moments_Pinching fingers_white.jpg"
-      alt: "Art print titled \"Seizing Precious Moments (Pinching Fingers)\" with pinching fingers white illustration."
+      src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P38_Art print 8.5x11_Collection Coloured Illustrations_Pinching Fingers Coloure.jpg"
+      alt: "Art print titled \"Pinching Fingers (Coloured)\" with a vibrant palette from the Coloured Illustrations Collection."
   - id: "KO546-P52"
     name: "Touch Mom Face COLOURED"
     price: 18

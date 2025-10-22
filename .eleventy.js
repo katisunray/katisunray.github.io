@@ -100,13 +100,24 @@ module.exports = function (config) {
         imageHtml = await imgShortcode(chosen, d.title, [400, 800, 1200], "(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 100vw", pathPrefix);
       }
     }
+    const hasPrice = d && d.price !== undefined && d.price !== null && d.price !== '';
+    const priceMarkup = hasPrice
+      ? `<span class="text-sm font-semibold">$${d.price} ${d.currency || 'CAD'}</span>`
+      : '';
+    const comingSoonOverlay = d && d.coming_soon
+      ? `<div class="absolute inset-0 flex items-center justify-center bg-black/60 text-white text-xs sm:text-sm font-semibold uppercase tracking-[0.35em] pointer-events-none">COMING&nbsp;SOON</div>`
+      : '';
     return `
 <a class="block group rounded-md overflow-hidden border hover:shadow-md transition" href="${url}">
-  <div class="aspect-[4/3] bg-gray-100 overflow-hidden media-contain">${imageHtml}</div>
+  <div class="relative aspect-[4/3] bg-gray-100 overflow-hidden media-contain">${imageHtml}
+    <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300 pointer-events-none"></div>
+    ${comingSoonOverlay}
+    ${d.type ? `<div class="absolute top-4 left-4"><span class="inline-block text-[11px] uppercase tracking-wide bg-white/90 backdrop-blur-sm text-neutral-700 px-2 py-1 rounded-md">${d.type}</span></div>` : ''}
+  </div>
   <div class="p-3">
     <div class="flex items-center justify-between">
       <h3 class="font-medium group-hover:underline">${d.title || ''}</h3>
-      <span class="text-sm font-semibold">${d.price || ''} ${d.currency || 'CAD'}</span>
+      ${priceMarkup}
     </div>
     ${d.type ? `<span class=\"mt-2 inline-block text-[11px] uppercase tracking-wide bg-beige px-2 py-1 rounded-md\">${d.type}</span>` : ''}
   </div>

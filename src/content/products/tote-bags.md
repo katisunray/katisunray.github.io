@@ -4,7 +4,7 @@ title: "Tote Bags"
 slug: "tote-bags"
 permalink: "/shop/{{ slug }}/index.html"
 price: 35
-shop_list_order: 7
+shop_list_order: 5
 currency: "CAD"
 type: "TOTE BAGS"
 sku: "TB-CANVAS"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/tote-bags/tote-bags.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Tote%20Bag%20Order"
 in_stock: true
+home_feature_order: 5
 seo:
   title: "Tote Bags | Kati Sunray STUDIO"
   description: "Canvas tote bags for carrying books, keepsakes, and daily essentials."

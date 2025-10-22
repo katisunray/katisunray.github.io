@@ -4,7 +4,7 @@ title: "Mindful Presence & Parenting Workshops"
 slug: "mindful-presence-parenting-workshops"
 permalink: "/shop/{{ slug }}/index.html"
 price_label: "Workshops begin in the first half of 2026"
-shop_list_order: 9
+shop_list_order: 14
 currency: ""
 sku: "WORKSHOP-MPP"
 collection_tags: ["workshops","mindful-presence"]
@@ -14,6 +14,7 @@ images:
 buy_url: "mailto:katisunray@gmail.com?subject=Mindful%20Presence%20%26%20Parenting%20Workshops%20Waitlist"
 buy_button_label: "Request more information"
 in_stock: false
+home_feature_order: 14
 seo:
   title: "Mindful Presence & Parenting Workshops | Kati Sunray STUDIO"
   description: "Join the waitlist to be first to know when mindful presence and parenting workshops open."

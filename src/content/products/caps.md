@@ -4,7 +4,7 @@ title: "Caps"
 slug: "caps"
 permalink: "/shop/{{ slug }}/index.html"
 price: 45
-shop_list_order: 12
+shop_list_order: 9
 currency: "CAD"
 type: "CAPS"
 sku: "CAPS-STUDIO"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/caps/caps.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Caps%20Order"
 in_stock: true
+home_feature_order: 9
 seo:
   title: "Caps | Kati Sunray STUDIO"
   description: "Comfortable structured caps celebrating family life moments."

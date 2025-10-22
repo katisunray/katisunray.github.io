@@ -4,7 +4,7 @@ title: "Beanie Toque"
 slug: "beanie-toque"
 permalink: "/shop/{{ slug }}/index.html"
 price: 45
-shop_list_order: 13
+shop_list_order: 10
 currency: "CAD"
 type: "BEANIE TOQUE"
 sku: "BEANIE-TOQUE"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/beanie-toque/KO546-Q01_Beanie Toque_Collection Mindful Presence_Being Present - Embroiderie - Grey.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Beanie%20Toque%20Order"
 in_stock: true
+home_feature_order: 10
 seo:
   title: "Beanie Toque | Kati Sunray STUDIO"
   description: "Warm, breathable beanies featuring 3M™ Thinsulate™ insulation."

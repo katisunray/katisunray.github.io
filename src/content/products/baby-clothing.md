@@ -4,7 +4,7 @@ title: "Baby Clothing"
 slug: "baby-clothing"
 permalink: "/shop/{{ slug }}/index.html"
 price: 40
-shop_list_order: 11
+shop_list_order: 6
 currency: "CAD"
 type: "BABY CLOTHING"
 sku: "BABY-ONESIE"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/baby-clothing/baby-clothing.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Baby%20Clothing%20Order"
 in_stock: true
+home_feature_order: 6
 seo:
   title: "Baby Clothing | Kati Sunray STUDIO"
   description: "Soft cotton baby bodysuits and onesies designed for cozy family moments."

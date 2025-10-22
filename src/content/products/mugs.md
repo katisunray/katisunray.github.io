@@ -4,7 +4,7 @@ title: "Mugs"
 slug: "mugs"
 permalink: "/shop/{{ slug }}/index.html"
 price: 40
-shop_list_order: 5
+shop_list_order: 8
 currency: "CAD"
 type: "MUGS"
 sku: "MG-CERAMIC"
@@ -13,6 +13,7 @@ images:
   - src: "/images/products/mugs/custom-mugs.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Mug%20Order"
 in_stock: true
+home_feature_order: 8
 seo:
   title: "Mugs | Kati Sunray STUDIO"
   description: "Ceramic mugs with gentle illustrations to brighten your daily rituals."

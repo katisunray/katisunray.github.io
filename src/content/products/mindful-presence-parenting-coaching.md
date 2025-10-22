@@ -4,7 +4,7 @@ title: "Mindful Presence & Parenting Coaching"
 slug: "mindful-presence-parenting-coaching"
 permalink: "/shop/{{ slug }}/index.html"
 price_label: "Programs available February 2026"
-shop_list_order: 8
+shop_list_order: 15
 currency: ""
 sku: "COACHING-MPP"
 collection_tags: ["coaching","mindful-presence"]
@@ -14,6 +14,7 @@ images:
 buy_url: "mailto:katisunray@gmail.com?subject=Mindful%20Presence%20%26%20Parenting%20Coaching%20Waitlist"
 buy_button_label: "Request more information"
 in_stock: false
+home_feature_order: 15
 seo:
   title: "Mindful Presence & Parenting Coaching | Kati Sunray STUDIO"
   description: "Join the waitlist for mindful presence and parenting coaching launching in 2026."

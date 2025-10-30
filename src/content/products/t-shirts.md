@@ -11,7 +11,7 @@ sku: "TS-SOFT-UNISEX"
 collection_tags: ["apparel","gifts"]
 images:
   - src: "/images/products/t-shirts/HERO TSHIRT collection mock up.jpg"
-    alt: "Assorted family-inspired t-shirts and tanks displayed together."
+    alt: "Assorted family-inspired and family-inspired t-shirts and tanks."
 buy_url: "mailto:katisunray@gmail.com?subject=T-Shirt%20Order"
 in_stock: true
 home_feature_order: 11
@@ -23,11 +23,11 @@ collection_sets:
     summary: "Adult tees and women's tanks with presence-inspired artwork for every caregiver."
     skus:
       - id: "KO546-T01"
-        name: "Presence The Best Gift - Navy Outline"
+        name: "Presence The Best Gift - Navy"
         image:
           src: "/images/products/t-shirts/KO546-T01_T-shirt_Collection Mindful Presence_Presence The Best Gift (navy_white outline)_Gildan Softstyle_Unisex_L.jpg"
           alt: "Navy unisex t-shirt with Presence The Best Gift message in white outline."
-        description: "Gildan Softstyle unisex tee featuring the Presence The Best Gift artwork."
+        description: "Unisex tee featuring the Presence The Best Gift artwork."
       - id: "KO546-T02"
         name: "Daddy in Action - Light Green"
         image:
@@ -41,13 +41,13 @@ collection_sets:
           alt: "Red unisex t-shirt with Being Present design in white outline."
         description: "Mindful Presence tee reminding us to be present in bold red."
       - id: "KO546-T05"
-        name: "Happy Raising Humans - Pink Outline"
+        name: "Happy Raising Humans - Pink"
         image:
           src: "/images/products/t-shirts/KO546-T05_T-shirt_Collection Happy Raising_Happy raising humans (pink_brown outline_hi5)_Gildan Heavy Cotton_Unisex_L.jpg"
           alt: "Pink unisex t-shirt with Happy Raising Humans illustration."
         description: "Happy Raising Humans tee with playful outlines celebrating caregiving."
       - id: "KO546-T06"
-        name: "Be Present Be Here - Blue Tank (Women's)"
+        name: "Be Present Be Here - Blue - Tank Top (Women's)"
         image:
           src: "/images/products/t-shirts/KO546-T06_T-shirt_Collection Mindful Presence_Be Present Be Here (blue_orange white outline)_Tank Top_District Women_M.jpg"
           alt: "Blue women's tank top with Be Present Be Here lettering."
@@ -69,7 +69,7 @@ collection_sets:
         image:
           src: "/images/products/t-shirts/KO546-T09_T-shirt_Collection In Action_Parent in Action (navy_white outline)_Gildan Softstyle_Unisex_L.jpg"
           alt: "Navy unisex t-shirt with Parent in Action illustration."
-        description: "In Action tee highlighting playful teamwork between parents and kids."
+        description: "In Action tee highlighting playful and supportive time between parents and kids."
       - id: "KO546-T10"
         name: "Grandpa in Action - Red"
         image:
@@ -107,17 +107,17 @@ collection_sets:
           alt: "White unisex t-shirt with Tiny Humans Deserve Presence wording."
         description: "Mindful Presence tee in white celebrating tiny humans and presence."
       - id: "KO546-T16"
-        name: "Presence The Best Gift - Navy Typography"
+        name: "Presence The Best Gift - Bold statement - Navy"
         image:
           src: "/images/products/t-shirts/KO546-T16_T-shirt_Collection Mindful Presence_Presence The Best Gift (navy_white copy_copy only)_Gildan Softstyle_Unisex_L.jpg"
-          alt: "Navy unisex t-shirt with Presence The Best Gift typography design."
-        description: "Mindful Presence tee with typography focused Presence The Best Gift message."
+          alt: "Navy unisex t-shirt with Presence The Best Gift bold statement."
+        description: "Mindful Presence tee with Presence The Best Gift bold statement."
       - id: "KO546-T17"
-        name: "Happy Raising Humans - White Typography"
+        name: "Happy Raising Humans - Bold statement - White"
         image:
           src: "/images/products/t-shirts/KO546-T17_T-shirt_Collection Happy Raising_Happy raising humans (white_brown copy_copy only)_Gildan Softstyle_Unisex_L.jpg"
           alt: "White unisex t-shirt with Happy Raising Humans typography."
-        description: "Happy Raising Humans tee in white with brown typography."
+        description: "Happy Raising Humans tee in white with brown bold statement."
       - id: "KO546-T18"
         name: "Happy Raising Humans - Pink Collage"
         image:
@@ -149,4 +149,5 @@ Designed to bring joy to families and create lasting memories, celebrating simpl
   - Material: 100% cotton.
   - Available sizes: S, M, L, XL.
 - Tank top (women): District Women's V.I.T. Gathered Back Tank, 100% cotton, self-binding at neck and armholes, gathered back detail. Available sizes: M, L.
+- All products are unisex, except the tank top for women.
 - Recommended to choose a size bigger than your regular size due to normal shrinkage (~5-7%).

@@ -17,8 +17,8 @@ seo:
   title: "\"My Illustrated First Year\" Keepsake | Kati Sunray STUDIO"
   description: "Transform 12 treasured baby photos into a bespoke year-one keepsake with monthly illustrations and final art prints."
 collection_sets:
-  - title: "Black & White Palette Options"
-    summary: "Preview the black and white monthly illustrations paired with soft background hues."
+  - title: "Examples - Background Palette Options"
+    summary: "Preview the black & white and the coloured monthly illustrations paired with soft background hues."
     skus:
       - name: "Black & White - Blue"
         image:

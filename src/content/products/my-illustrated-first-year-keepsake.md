@@ -84,9 +84,9 @@ Eternalize your baby's 12 most precious moments of their first year into a beaut
 - See examples in the image links below.
 - *Frames not included.*
 
-Two options are available:
+**Two options are available:**
 
-1. **Receiving All Illustrations at Once**  
+1. **1) Receiving All Illustrations at Once**  
    Ideal when you already have 12 photos ready (for example, when ordering close to the first birthday).
    - What you receive:
      - 2 art prints* of your "My Illustrated First Year" (one coloured and one black and white).
@@ -100,7 +100,8 @@ Two options are available:
    - Photos must be high resolution (avoid messaging app compressions). Photo approval is required before illustration work starts.
    - *Frames not included.*
 
-2. **Subscription (Receiving Illustrations Monthly Until Month #12)**  
+
+2. **2) Subscription (Receiving Illustrations Monthly Until Month #12)**  
    Submit one photo per month for 12 months and receive monthly illustrations plus the final keepsake (perfect for expectant families or gifting ahead of a baby's arrival).
    - What you receive:
      - At month #12:

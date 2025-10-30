@@ -19,25 +19,25 @@ skus:
       src: "/images/products/arts-prints/collections/collection-in-action/KO546-P04_Art print 8.5x11_Collection In Action_Daddy in action_holding 2 hands_green.jpg"
       alt: "Art print titled \"Daddy In Action (Holding 2 Hands)\" with holding 2 hands green illustration."
   - id: "KO546-P10"
-    name: "Grandma In Action (Grandma Holds Newborn)"
+    name: "Grandma In Action"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-in-action/KO546-P10_Art print 8.5x11_Collection In Action_Grandma in action_Grandma holds newborn_orange.jpg"
       alt: "Art print titled \"Grandma In Action (Grandma Holds Newborn)\" with grandma holds newborn orange illustration."
   - id: "KO546-P11"
-    name: "Grandpa In Action (Holding Hands)"
+    name: "Grandpa In Action"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-in-action/KO546-P11_Art print 8.5x11_Collection In Action_Grandpa in Action_holding hands_gray green colored.jpg"
       alt: "Art print titled \"Grandpa In Action (Holding Hands)\" with holding hands gray green colored illustration."
   - id: "KO546-P30"
-    name: "Mama In Action (Hold Finger, Pink Back)"
+    name: "Mama In Action (Hold Finger)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-in-action/KO546-P30_Art print 8.5x11_Collection In Action_Mama In Action - Hold Finger - Pink Back.jpg"
       alt: "Art print titled \"Mama In Action (Hold Finger, Pink Back)\" from the In Action Collection."
   - id: "KO546-P31"
-    name: "Mama In Action (Touch Face, Pink Back)"
+    name: "Mama In Action (Baby Touch)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-in-action/KO546-P31_Art print 8.5x11_Collection In Action_Mama In Action - Touch Face - Pink Back.jpg"

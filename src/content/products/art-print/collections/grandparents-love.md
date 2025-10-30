@@ -25,31 +25,31 @@ skus:
       src: "/images/products/arts-prints/collections/collection-grandparents-love/KO546-P11_Art print 8.5x11_Collection Grandparents Love_Grandpa in Action_holding hands_gray green colored.jpg"
       alt: "Art print titled \"Grandpa In Action (Holding Hands)\" with holding hands gray green colored illustration."
   - id: "KO546-P16"
-    name: "I Love My Grandma (Newborn Snuggle)"
+    name: "I Love Grandma"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-grandparents-love/KO546-P16_Art print 8.5x11_Collection Grandparents Love_I love my grandma_newborn snuggle_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Grandma (Newborn Snuggle)\" with newborn snuggle orange coloured illustration."
   - id: "KO546-P17"
-    name: "I Love My Grandpa (Hold Finger)"
+    name: "I Love My Grandpa (Holding Finger)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-grandparents-love/KO546-P17_Art print 8.5x11_Collection Grandparents Love_I love my grandpa_hold finger_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Grandpa (Hold Finger)\" with hold finger orange coloured illustration."
   - id: "KO546-P18"
-    name: "I Love My Grandpas (Chubby Legs Front)"
+    name: "I Love My Grandparents (Chubby Legs - Yellow)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-grandparents-love/KO546-P18_Art print 8.5x11_Collection Grandparents Love_I love my grandpas_chubby legs front_yellow coloured.jpg"
       alt: "Art print titled \"I Love My Grandpas (Chubby Legs Front)\" with chubby legs front yellow coloured illustration."
   - id: "KO546-P19"
-    name: "I Love My Grandpas (Heart Feet)"
+    name: "I Love My Grandparents (Heart Feet - Light Blue)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-grandparents-love/KO546-P19_Art print 8.5x11_Collection Grandparents Love_I love my grandpas_heart feet_Blue coloured.jpg"
       alt: "Art print titled \"I Love My Grandpas (Heart Feet)\" with heart feet blue coloured illustration."
   - id: "KO546-P27"
-    name: "Love Grandma Snuggles (Baby Snuggles Grandma's Lap, Purple Sky)"
+    name: "Love Snuggles with Grandma (Newborn Snuggle)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-grandparents-love/KO546-P27_Art print 8.5x11_Collection Grandparents Love_Love Grandma Snuggles - Baby Snuggles Grandma'S Lap - Purple Sky.jpg"

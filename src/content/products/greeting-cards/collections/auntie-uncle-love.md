@@ -6,7 +6,7 @@ parent_product_slug: "greeting-cards"
 parent_page_label: "Greeting Cards"
 order: 10
 permalink: "/shop/greeting-cards/collections/{{ slug }}/index.html"
-summary: "Sweet cards celebrating nieces, nephews, and the relatives who adore them."
+summary: "Sweet cards celebrating aunties and uncles, and the little ones who adore them."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
   src: "/images/products/greeting-cards/collections/GREETING CARDS - Collection ‘Auntie & Uncle love’.jpg"
@@ -30,4 +30,4 @@ seo:
   description: "Order Auntie & Uncle Love greeting card SKUs directly via email."
 ---
 
-Celebrate the joy of playful nicknames, nurturing moments, and family ties that grow with every hug and visit.
+Celebrate the joy of playful times, nurturing moments, and family ties that grow with every hug and visit.

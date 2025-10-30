@@ -13,7 +13,7 @@ hero_image:
   alt: "Framed I Love collection art prints with blush and golden tones."
 skus:
   - id: "KO546-P13"
-    name: "I Love My Auntie (Chubby Legs Front)"
+    name: "I Love My Auntie (Chubby Legs)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P13_Art print 8.5x11_Collection I love_I love my auntie_chubby legs front_yellow coloured.jpg"
@@ -25,43 +25,43 @@ skus:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P14_Art print 8.5x11_Collection I love_I love my auntie_hi5_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Auntie (Hi5)\" with hi5 orange coloured illustration."
   - id: "KO546-P15"
-    name: "I Love My Dad (Hold Hands)"
+    name: "I Love My Dad"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P15_Art print 8.5x11_Collection I love_I love my dad_Hold hands_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Dad (Hold Hands)\" with hold hands orange coloured illustration."
   - id: "KO546-P16"
-    name: "I Love My Grandma (Newborn Snuggle)"
+    name: "I Love My Grandma"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P16_Art print 8.5x11_Collection I love_I love my grandma_newborn snuggle_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Grandma (Newborn Snuggle)\" with newborn snuggle orange coloured illustration."
   - id: "KO546-P17"
-    name: "I Love My Grandpa (Hold Finger)"
+    name: "I Love My Grandpa"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P17_Art print 8.5x11_Collection I love_I love my grandpa_hold finger_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Grandpa (Hold Finger)\" with hold finger orange coloured illustration."
   - id: "KO546-P18"
-    name: "I Love My Grandpas (Chubby Legs Front)"
+    name: "I Love My Grandparents (Chubby Legs)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P18_Art print 8.5x11_Collection I love_I love my grandpas_chubby legs front_yellow coloured.jpg"
       alt: "Art print titled \"I Love My Grandpas (Chubby Legs Front)\" with chubby legs front yellow coloured illustration."
   - id: "KO546-P19"
-    name: "I Love My Grandpas (Heart Feet)"
+    name: "I Love My Grandparents (Tiny Feet in Heart Shape)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P19_Art print 8.5x11_Collection I love_I love my grandpas_heart feet_Blue coloured.jpg"
       alt: "Art print titled \"I Love My Grandpas (Heart Feet)\" with heart feet blue coloured illustration."
   - id: "KO546-P20"
-    name: "I Love My Mom (Heart Feet)"
+    name: "I Love My Mom"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P20_Art print 8.5x11_Collection I love_I love my mom_Heart feet_Orange coloured.jpg"
       alt: "Art print titled \"I Love My Mom (Heart Feet)\" with heart feet orange coloured illustration."
   - id: "KO546-P27"
-    name: "Love Grandma Snuggles (Baby Snuggles Grandma's Lap, Purple Sky)"
+    name: "Love Snuggles with Grandma"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-i-love/KO546-P27_Art print 8.5x11_Collection I love_Love Grandma Snuggles - Baby Snuggles Grandma'S Lap - Purple Sky.jpg"

@@ -21,6 +21,7 @@ seo:
 ---
 
 - Awaken your presence, clarify your values and needs, and align with your strengths — in life, work, and parenthood/motherhood.
-- Programs available as of February 2026.
+- Programs starting the first half of 2026.
 - Join the waiting list by email.
 - “Clarity. Presence. A fulfilled and meaningful life.”
+

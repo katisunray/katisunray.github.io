@@ -13,55 +13,55 @@ hero_image:
   alt: "Framed Precious Moments art prints layered with multiple family vignettes."
 skus:
   - id: "KO546-P08"
-    name: "Family First (Collection Illus, Orange)"
+    name: "Family First (Collection of Illustrations, Orange)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P08_Art print 8.5x11_Collection Precious Moments_Family first - collection illus - orange.jpg"
       alt: "Art print titled \"Family First (Collection Illus, Orange)\" from the Precious Moments Collection."
   - id: "KO546-P23"
-    name: "Lifetime Of Prec Moments Be Present (Collection Bw, Blue Coloured)"
+    name: "Lifetime Of Precious Moments Be Present (Collection BW, Blue)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P23_Art print 8.5x11_Collection Precious Moments_Lifetime Of Prec Moments Be Present - Collection Bw - Blue Coloured.jpg"
       alt: "Art print titled \"Lifetime Of Prec Moments Be Present (Collection Bw, Blue Coloured)\" from the Precious Moments Collection."
   - id: "KO546-P24"
-    name: "Lifetime Of Prec Moments Be Present (Collection Bw, Green Back)"
+    name: "Lifetime Of Precious Moments Be Present (Collection BW, Green)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P24_Art print 8.5x11_Collection Precious Moments_Lifetime Of Prec Moments Be Present - Collection Bw - Green Back.jpg"
       alt: "Art print titled \"Lifetime Of Prec Moments Be Present (Collection Bw, Green Back)\" from the Precious Moments Collection."
   - id: "KO546-P25"
-    name: "Lifetime Of Prec Moments Be Present (Collection Bw, Orange Color)"
+    name: "Lifetime Of Precious Moments Be Present (Collection BW, Orange)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P25_Art print 8.5x11_Collection Precious Moments_Lifetime Of Prec Moments Be Present - Collection Bw - Orange Color.jpg"
       alt: "Art print titled \"Lifetime Of Prec Moments Be Present (Collection Bw, Orange Color)\" from the Precious Moments Collection."
   - id: "KO546-P26"
-    name: "Lifetime Of Prec Moments Be Present (Collection Bw, Yellow Back)"
+    name: "Lifetime Of Precious Moments Be Present (Collection BW, Yellow)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P26_Art print 8.5x11_Collection Precious Moments_Lifetime Of Prec Moments Be Present - Collection Bw - Yellow Back.jpg"
       alt: "Art print titled \"Lifetime Of Prec Moments Be Present (Collection Bw, Yellow Back)\" from the Precious Moments Collection."
   - id: "KO546-P40"
-    name: "Precious Moments To Witness (Collection 6 Colour Illus, White)"
+    name: "Precious Moments To Witness (Collection of Illustrations, White)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P40_Art print 8.5x11_Collection Precious Moments_Precious Moments To Witness - Collection 6 Colour Illus - White.jpg"
       alt: "Art print titled \"Precious Moments To Witness (Collection 6 Colour Illus, White)\" from the Precious Moments Collection."
   - id: "KO546-P41"
-    name: "Precious Moments To Witness (Collection Illus 14 Images- Light Re)"
+    name: "Precious Moments To Witness (Collection Illustrations - Light Red)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P41_Art print 8.5x11_Collection Precious Moments_Precious moments to witness -  collection illus 14 images- light re.jpg"
       alt: "Art print titled \"Precious Moments To Witness (Collection Illus 14 Images- Light Re)\" from the Precious Moments Collection."
   - id: "KO546-P42"
-    name: "Precious Moments To Witness (Collection Illus 14 Images-white)"
+    name: "Precious Moments To Witness (Collection Illustrations - White)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P42_Art print 8.5x11_Collection Precious Moments_Precious moments to witness -  collection illus 14 images-white.jpg"
       alt: "Art print titled \"Precious Moments To Witness (Collection Illus 14 Images-white)\" from the Precious Moments Collection."
   - id: "KO546-P54"
-    name: "Wishing You Precious Moments (Collection Colour Illus)"
+    name: "Wishing You Precious Moments (Collection Illustrations)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-precious-moments/KO546-P54_Art print 8.5x11_Collection Precious Moments_Wishing you precious moments -  collection colour illus_white.jpg"

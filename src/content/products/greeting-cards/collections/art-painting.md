@@ -42,4 +42,5 @@ seo:
   description: "Order Art Painting greeting card SKUs directly via email."
 ---
 
-Discover painterly gradients paired with thoughtful sentiments inspired by sunset skies.
+Discover painterly gradients paired with thoughtful sentiments inspired by sunset skies. 
+Painted with oil paint on canvas in Toronto, then photographed as a high resolution image for the art prints and greeting cards.

@@ -19,7 +19,7 @@ seo:
 
 A letter-size art print (11.5 x 8 in) printed on thick matte premium stock. Perfect for framing and gifting to celebrate the everyday magic of family life.
 
-Email us to request specific collections or colour palettes - additional series will be released soon.
+Email us to request specific artwork or collection.
 
 
 

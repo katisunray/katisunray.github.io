@@ -144,9 +144,15 @@ module.exports = function (config) {
         return (a.data.title || '').localeCompare(b.data.title || '');
       })
   );
+  const serverHost = process.env.ELEVENTY_SERVER_HOST || "127.0.0.1";
+  const serverPort = Number(process.env.ELEVENTY_SERVER_PORT) || 8080;
   return {
     dir: { input: "src", output: "_site", includes: "_includes" },
     htmlTemplateEngine: "njk",
-    pathPrefix
+    pathPrefix,
+    serverOptions: {
+      host: serverHost,
+      port: serverPort
+    }
   };
 };

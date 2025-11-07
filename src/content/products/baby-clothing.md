@@ -48,7 +48,7 @@ Celebrate the simple, precious moments of family life with soft cotton baby body
 
 Perfect for cozy days with your little ones or gifting to other new families.
 
-- Thoughtfully designed and printed in Ontario, Canada.
+- Thoughtfully designed and printed in Ontario, Canada. Illustrations were hand drawn in Toronto.
 - Explore the products in the list below.
 - Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
 
@@ -62,4 +62,5 @@ Perfect for cozy days with your little ones or gifting to other new families.
 - Easy to dress and undress.
 - Poppers at the bottom.
 - Recommended to choose a size bigger than your regular size due to normal shrinkage rate (~5-7%).
+
 

@@ -74,3 +74,5 @@ You receive 4 products:
 - Photo provided needs to be high resolution to maximize results of the illustration (for example, avoid using a photo shared by messaging as they are usually low resolution). Photo approval is needed before illustration work starts.
 
 Email us to order your keepsake and eternalize your precious moments with your little one!
+
+*Illustrations are hand drawn and hand coloured with coloured pencils in Toronto. Designed and printed in Ontario, Canada.

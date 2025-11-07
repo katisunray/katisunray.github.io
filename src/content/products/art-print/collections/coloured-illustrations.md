@@ -13,25 +13,25 @@ hero_image:
   alt: "Gallery wall featuring richly coloured family illustration art prints."
 skus:
   - id: "KO546-P34"
-    name: "Newborn Snuggle Coloured"
+    name: "Newborn Snuggle Coloured Illustration"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P34_Art print 8.5x11_Collection Coloured Illustrations_Newborn Snuggle Coloured.jpg"
       alt: "Art print titled \"Newborn Snuggle Coloured\" from the Coloured Illustrations Collection."
   - id: "KO546-P36"
-    name: "Only Chubby Legs Front (Yellow Coloured Back)"
+    name: "Chubby Legs Outline Illustration (Yellow)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P36_Art print 8.5x11_Collection Coloured Illustrations_Only Chubby Legs Front - Yellow Coloured Back.jpg"
       alt: "Art print titled \"Only Chubby Legs Front (Yellow Coloured Back)\" from the Coloured Illustrations Collection."
   - id: "KO546-P38"
-    name: "Pinching Fingers (Coloured)"
+    name: "Loving Pinching Fingers Coloured Illustration"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P38_Art print 8.5x11_Collection Coloured Illustrations_Pinching Fingers Coloure.jpg"
       alt: "Art print titled \"Pinching Fingers (Coloured)\" with a vibrant palette from the Coloured Illustrations Collection."
   - id: "KO546-P52"
-    name: "Touch Mom Face COLOURED"
+    name: "Touching Mom's Face Coloured Illustration"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-coloured-illustrations/KO546-P52_Art print 8.5x11_Collection Coloured Illustrations_Touch Mom face COLOURED .jpg"
@@ -43,3 +43,4 @@ seo:
 ---
 
 Lush colour blocks, tender gestures, and joyful expressions turn everyday family life into wall-worthy art.
+

@@ -19,6 +19,13 @@ seo:
 
 A wall art print (letter-size, 11.5 x 8 in) printed on thick matte premium stock. Perfect for framing and gifting to celebrate the everyday magic of family life and presence.
 
+Illustrations were hand drawn and hand coloured with coloured pencils in Toronto.
+Designed and printed in Ontario, Canada.
+
+Explore the full collection in the links below.
+
+Order timeline: 5 business days to process + shipping (additional shipping cost)
+
 Email us to request specific artwork or collection.
 
 *Option to buy digital file and print at your own convenience. Email for details and pricing.

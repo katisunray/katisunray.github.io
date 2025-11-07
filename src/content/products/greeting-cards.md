@@ -24,6 +24,7 @@ cards printed on thick matte stock. Each card comes with a matching envelope, re
 From baby showers to birthdays, each card is crafted to bring joy to parents,
 grandparents, aunts, uncles, and of course, the little ones who inspire it all.
 
+Illustrations were hand drawn and hand coloured with coloured pencils in Toronto.
 Designed and printed in Ontario, Canada.
 
 Explore the full collection in the links below.

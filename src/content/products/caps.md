@@ -81,7 +81,7 @@ collection_sets:
 
 Celebrate the simple, precious moments of family life with this 6-panel structured cap that is all about comfort, style, and fit. With an adjustable closure, it fits most head sizes. Perfect for cozy days with your little ones or gifting to fellow caregivers.
 
-- Thoughtfully designed and printed in Ontario, Canada.
+- Thoughtfully designed and printed in Ontario, Canada. Illustrations were hand drawn in Toronto.
 - Explore the products in the list below.
 - Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
 
@@ -94,3 +94,4 @@ Celebrate the simple, precious moments of family life with this 6-panel structur
 - Decoration: Embroidery or printed/heat transfer (see image for detail).
   - Embroidery cap: 6-panel structured hat.
   - Printed cap: 5-panel structured hat.
+

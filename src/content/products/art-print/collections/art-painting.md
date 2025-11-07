@@ -13,7 +13,7 @@ hero_image:
   alt: "Pair of framed sunset art prints from the Art Painting collection on a concrete wall."
 skus:
   - id: "KO546-P50"
-    name: "Sunset Painting Bleeding"
+    name: "Sunset Painting"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-art-painting/KO546-P50_Art print 8.5x11_Collection Art Painting_Sunset painting bleeding.jpg"

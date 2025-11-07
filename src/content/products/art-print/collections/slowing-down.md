@@ -6,7 +6,7 @@ parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
 order: 23
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
-summary: "Gentle reminders to savour cozy, unhurried days."
+summary: "Gentle reminders to slow down and savour cozy, unhurried days."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
   src: "/images/products/arts-prints/collections/ART PRINT - Collection ‘Slowing Down’.jpg"
@@ -42,4 +42,4 @@ seo:
   description: "Order Slowing Down Collection SKUs directly via email."
 ---
 
-Hang these soothing prints where you need the cue to breathe, cuddle in, and enjoy the present.
+Hang these soothing prints where you need the cue to breathe, cuddle in, and enjoy the present with your little ones (or by yourself).

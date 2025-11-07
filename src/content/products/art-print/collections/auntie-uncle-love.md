@@ -13,7 +13,7 @@ hero_image:
   alt: "Framed Auntie and Uncle Love art prints with bright yellow and orange tones."
 skus:
   - id: "KO546-P13"
-    name: "I Love My Auntie (Chubby Legs Front)"
+    name: "I Love My Auntie (Chubby Legs)"
     price: 18
     image:
       src: "/images/products/arts-prints/collections/collection-auntie-uncle-love/KO546-P13_Art print 8.5x11_Collection Auntie & Uncle Love_I love my auntie_chubby legs front_yellow coloured.jpg"
@@ -30,4 +30,4 @@ seo:
   description: "Order Auntie & Uncle Love Collection SKUs directly via email."
 ---
 
-Celebrate the fun-loving relatives who spoil the littles rotten with colourful affirmations and joyful poses.
+Celebrate the fun-loving relatives who are so loved by the little ones with colourful affirmations and joyful poses.

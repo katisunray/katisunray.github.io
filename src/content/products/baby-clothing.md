@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Baby Clothing"
 slug: "baby-clothing"
 permalink: "/shop/{{ slug }}/index.html"
-price: 40
+price: 45
 shop_list_order: 6
 currency: "CAD"
 type: "BABY CLOTHING"
@@ -62,3 +62,4 @@ Perfect for cozy days with your little ones or gifting to other new families.
 - Easy to dress and undress.
 - Poppers at the bottom.
 - Recommended to choose a size bigger than your regular size due to normal shrinkage rate (~5-7%).
+

@@ -17,7 +17,7 @@ seo:
   description: "Letter size art print measuring 11.5 x 8 in, printed on matte stock."
 ---
 
-A letter-size art print (11.5 x 8 in) printed on thick matte premium stock. Perfect for framing and gifting to celebrate the everyday magic of family life.
+A wall art print (letter-size, 11.5 x 8 in) printed on thick matte premium stock. Perfect for framing and gifting to celebrate the everyday magic of family life and presence.
 
 Email us to request specific artwork or collection.
 

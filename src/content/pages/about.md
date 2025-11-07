@@ -15,7 +15,7 @@ seo:
       About Kati Sunray STUDIO
       </h1>
       <p class="text-xl text-neutral-700 leading-relaxed">
-        Creating heartfelt gifts that celebrate the beautiful chaos and precious moments of family life.
+        Creating heartfelt gifts that cherish the simple and precious moments of family life and celebrate presence with our little ones.
       </p>
     </div>
   </div>
@@ -30,7 +30,7 @@ seo:
           <div>
             <h2 class="text-3xl font-serif font-semibold text-gradient mb-6">Our Story</h2>
             <p class="text-lg text-neutral-700 leading-relaxed mb-6">
-              Kati Sunray STUDIO creates heartfelt gifts for families: greeting cards, art prints, and keepsakes that capture the essence of those precious, fleeting moments with our little ones.
+              Kati Sunray STUDIO creates heartfelt gifts for families: books, greeting cards, art prints, and keepsakes that capture the essence of those precious, fleeting moments with our little ones. 
             </p>
             <p class="text-lg text-neutral-700 leading-relaxed">
               Each piece is designed to remind us to slow down, be present, and cherish the simple joys that children bring into our lives.
@@ -43,7 +43,7 @@ seo:
               </svg>
             </div>
             <h3 class="text-xl font-serif font-semibold text-neutral-900 mb-2">Made with Love</h3>
-            <p class="text-neutral-600">Every piece is thoughtfully designed and printed in Ontario, Canada</p>
+            <p class="text-neutral-600">Every piece is thoughtfully designed and printed in Ontario, Canada - all illustrations are hand drawn and hand coloured with coloured pencils in Toronto</p>
           </div>
         </div>
 

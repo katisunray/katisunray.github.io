@@ -116,3 +116,5 @@ Eternalize your baby's 12 most precious moments of their first year into a beaut
    - Order timeline: 2 weeks needed to process each monthly illustration + shipping.
    - Photos must be high resolution (avoid messaging app compressions). Photo approval is required before illustration work starts.
    - *Frames not included.*
+  
+   *Illustrations are hand drawn and hand coloured with coloured pencils in Toronto. Designed and printed in Ontario, Canada.

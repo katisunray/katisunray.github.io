@@ -31,4 +31,4 @@ seo:
 ---
 
 Dreamy watercolour sunsets and glowy skies invite a daily moment of calm in your favourite nook.
-Painted with oil paint on canvas in Toronto, then photographed as a high resolution image for the art prints.
+Painted with acrylic paint on canvas in Toronto, then photographed as a high resolution image for the art prints.

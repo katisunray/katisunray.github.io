@@ -57,3 +57,5 @@ You receive 4 products:
 - Option to get 1 extra custom "Magnificent Little You" art line print for an additional $30.
 
 Email us to order your keepsake and eternalize your precious moments with your little one!
+
+*Illustrations are hand drawn and hand coloured with coloured pencils in Toronto. Designed and printed in Ontario, Canada.

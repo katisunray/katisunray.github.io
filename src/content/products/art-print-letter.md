@@ -21,5 +21,7 @@ A letter-size art print (11.5 x 8 in) printed on thick matte premium stock. Perf
 
 Email us to request specific artwork or collection.
 
+*Option to buy digital file and print at your own convenience. Email for details and pricing.
+
 
 

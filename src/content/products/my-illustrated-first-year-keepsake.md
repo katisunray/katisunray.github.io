@@ -117,4 +117,4 @@ Eternalize your baby's 12 most precious moments of their first year into a beaut
    - Photos must be high resolution (avoid messaging app compressions). Photo approval is required before illustration work starts.
    - *Frames not included.*
   
-   *Illustrations are hand drawn and hand coloured with coloured pencils in Toronto. Designed and printed in Ontario, Canada.
+   *Illustrations are hand-drawn and hand-coloured with colour pencils in Toronto. Designed and printed in Ontario, Canada.

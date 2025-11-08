@@ -100,7 +100,7 @@ Celebrate the simple, precious moments of family life with ceramic mugs featurin
 
 Every item tells a story of love, presence, or the beautiful chaos of family life and parenthood/motherhood, and is crafted to bring joy to parents, grandparents, aunts, uncles, and of course, the little ones who inspire it all. Perfect for gifting to fellow families.
 
-- Thoughtfully designed and printed in Ontario, Canada. Illustrations were hand drawn and most of the writting was hand written in Toronto.
+- Thoughtfully designed and printed in Ontario, Canada. Illustrations were hand-drawn and most of the writting was handwritten in Toronto.
 - Explore the products in the links below.
 - Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
 - Email us with your favourite illustration and quantity to place an order.

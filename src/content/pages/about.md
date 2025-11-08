@@ -43,7 +43,7 @@ seo:
               </svg>
             </div>
             <h3 class="text-xl font-serif font-semibold text-neutral-900 mb-2">Made with Love</h3>
-            <p class="text-neutral-600">Every piece is thoughtfully designed and printed in Ontario, Canada - all illustrations are hand drawn and hand coloured with coloured pencils in Toronto</p>
+            <p class="text-neutral-600">Every piece is thoughtfully designed and printed in Ontario, Canada - all illustrations are hand drawn and hand coloured with colour pencils in Toronto</p>
           </div>
         </div>
 

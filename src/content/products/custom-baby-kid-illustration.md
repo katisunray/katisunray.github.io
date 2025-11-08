@@ -58,4 +58,4 @@ You receive 4 products:
 
 Email us to order your keepsake and eternalize your precious moments with your little one!
 
-*Illustrations are hand drawn and hand coloured with coloured pencils in Toronto. Designed and printed in Ontario, Canada.
+*Illustrations are hand-drawn and hand-coloured with colour pencils in Toronto. Designed and printed in Ontario, Canada.

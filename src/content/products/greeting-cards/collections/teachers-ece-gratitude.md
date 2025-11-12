@@ -34,7 +34,7 @@ skus:
       alt: "Turquoise greeting card with illustrated hands and \"Thank you\" message."
     description: "Bright turquoise design celebrating everyday kindness in the classroom."
   - id: "KO546-G38"
-    name: "Dear Teacher Inspiring (Orange)"
+    name: "Dear Teacher Thanks for Inspiring (Orange)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-teachers-ece-gratitude/KO546-G38_Greeting card 5x7 _Collection Teachers Ece Gratitude_Dear Teacher thank you inspiring_hold hands_orange.jpg"

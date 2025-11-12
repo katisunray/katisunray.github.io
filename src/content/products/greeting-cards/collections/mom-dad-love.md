@@ -25,13 +25,13 @@ skus:
       src: "/images/products/greeting-cards/collections/collection-mom-dad-love/KO546-G08_Greeting card 5x7 _Collection Mom Dad Love_Daddy in action_hold 2 hands_green.jpg"
       alt: "Greeting card featuring Daddy in action holding two small hands on a vivid green background."
   - id: "KO546-G19"
-    name: "Love Dad"
+    name: "I Love My Dad (orange)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-mom-dad-love/KO546-G19_Greeting card 5x7 _Collection Mom Dad Love_Love dad_hold hands_coloured orange.jpg"
       alt: "Greeting card with Love dad phrasing and a parent holding hands illustration on orange."
   - id: "KO546-G21"
-    name: "Love Mom"
+    name: "I Love My Mom (orange)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-mom-dad-love/KO546-G21_Greeting card 5x7 _Collection Mom Dad Love_Love mom_feet heart hands_coloured orange.jpg"
@@ -49,7 +49,7 @@ skus:
       src: "/images/products/greeting-cards/collections/collection-mom-dad-love/KO546-G24_Greeting card 5x7 _Collection Mom Dad Love_Mom Tks Being You_touch mom's face.jpg"
       alt: "Greeting card thanking mom for being herself with soft peach tones."
   - id: "KO546-G30"
-    name: "Superwoman"
+    name: "You Are Superwoman"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-mom-dad-love/KO546-G30_Greeting card 5x7 _Collection Mom Dad Love_Superwoman_touch mom's face_light orange.jpg"

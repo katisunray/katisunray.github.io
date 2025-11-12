@@ -25,7 +25,7 @@ skus:
       src: "/images/products/greeting-cards/collections/collection-art-painting/KO546-G14_Greeting card 5x7 _Collection Art Painting_Happy Bday_Sunset painting.jpg"
       alt: "Happy Birthday greeting card with a sunset painting illustration."
   - id: "KO546-G16"
-    name: "Happy Thanksgiving -Sunset painting"
+    name: "Happy Thanksgiving - Sunset painting"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-art-painting/KO546-G16_Greeting card 5x7 _Collection Art Painting_Happy Thanksgiving_Sunset painting.jpg"

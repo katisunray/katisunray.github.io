@@ -27,14 +27,14 @@ skus:
       alt: "Painterly sunset greeting card with a handwritten thank-you message."
     description: "Radiant sunset colours paired with heartfelt thanks."
   - id: "KO546-G36"
-    name: "Thank You (Navy Hold Hands)"
+    name: "Teacher, Thank You (Navy Hold Hands)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-thank-you/KO546-G36_Greeting card 5x7 _Collection Thank you_Dear teacher Thank you_Hold Hands Big_blue.jpg"
       alt: "Navy greeting card showing illustrated hands with a thank-you message."
     description: "Deep navy palette with an encouraging note for mentors, teachers, or neighbours."
   - id: "KO546-G37"
-    name: "Teacher, Thank You (Turquoise Hold Hands)"
+    name: "Thank You (Turquoise Hold Hands)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-thank-you/KO546-G37_Greeting card 5x7 _Collection Thank you_Thank you_Hold Hands_blue turquoise.jpg"
@@ -54,4 +54,5 @@ seo:
 ---
 
 Send a warm thank you with illustrated cards that celebrate the helpers, encouragers, and extended family in your world.
+
 

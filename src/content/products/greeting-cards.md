@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Greeting Cards 5 x 7 in"
 slug: "greeting-cards"
 permalink: "/shop/{{ slug }}/index.html"
-price: 8
+price: 8-10
 shop_list_order: 4
 currency: "CAD"
 sku: "GC-SET-5X7"

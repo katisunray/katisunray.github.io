@@ -34,14 +34,14 @@ skus:
       alt: "Navy greeting card showing illustrated hands with a thank-you message."
     description: "Deep navy palette with an encouraging note for mentors, teachers, or neighbours."
   - id: "KO546-G37"
-    name: "Thank You (Turquoise Hold Hands)"
+    name: "Teacher, Thank You (Turquoise Hold Hands)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-thank-you/KO546-G37_Greeting card 5x7 _Collection Thank you_Thank you_Hold Hands_blue turquoise.jpg"
       alt: "Turquoise greeting card with illustrated figures and the words \"Thank you.\""
     description: "Bright turquoise background with playful illustrated hands."
   - id: "KO546-G38"
-    name: "Thank You Inspiring (Orange)"
+    name: "Teacher, Thank You For Inspiring (Orange)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-thank-you/KO546-G38_Greeting card 5x7 _Collection Thank you_Dear Teacher thank you inspiring_hold hands_orange.jpg"
@@ -54,3 +54,4 @@ seo:
 ---
 
 Send a warm thank you with illustrated cards that celebrate the helpers, encouragers, and extended family in your world.
+

@@ -13,19 +13,19 @@ hero_image:
   alt: "Baby Shower and Labor greeting cards styled with soft-toned envelopes and florals."
 skus:
   - id: "KO546-G02"
-    name: "Baby Shower"
+    name: "Happy Baby Shower (Illustrations collage)"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G02_Greeting card 5x7 _Collection Baby Shower & Labor_Baby Shower -Flower, Newborn Swaddle, Love ones_yellow lightie, pinching.jpg"
       alt: "Baby shower greeting card with a swaddled newborn surrounded by blooming flowers and family hands."
   - id: "KO546-G17"
-    name: "Labor Bump (Green)"
+    name: "Wishing You Serenity During Labor"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G17_Greeting card 5x7 _Collection Baby Shower & Labor_Labor_Bump_Green.jpg"
       alt: "Greeting card featuring an expectant parent holding their bump in a calming green palette."
   - id: "KO546-G35"
-    name: "Wishing Precious Moments"
+    name: "Wishing You Precious Moments"
     price: 8
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G35_Greeting card 5x7 _Collection Baby Shower & Labor_Wishing precious moments_Collection arts_white.jpg"
@@ -37,3 +37,4 @@ seo:
 ---
 
 Offer heartfelt encouragement for birthing people and the support teams cheering them on through every wave and celebration.
+

@@ -9,7 +9,7 @@ currency: "CAD"
 sku: "GC-SET-5X7"
 collection_tags: ["cards","stationery"]
 images:
-  - src: "/images/products/greeting-cards/greeting-cards-5x7.jpg"
+  - src: "/images/products/greeting-cards/hero-greeting-cards-v6.jpg"
 in_stock: true
 home_feature_order: 4
 collection_order_prompt: "Choose a collection below to view available SKUs and email us with the card code and quantity."

@@ -9,8 +9,8 @@ permalink: "/shop/greeting-cards/collections/{{ slug }}/index.html"
 summary: "Simple, soulful affirmations for the people you hold closest."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
-  src: "/images/products/greeting-cards/collections/GREETING CARDS - Collection ‘I love’.jpg"
-  alt: "I Love greeting cards styled with blush envelopes and delicate florals."
+  src: "/images/products/greeting-cards/collections/hero-gc-i-love-v6.jpg"
+  alt: "I Love collection hero showcasing refreshed cards with blush envelopes."
 skus:
   - id: "KO546-G07"
     name: "Dad We Love You"
@@ -60,6 +60,18 @@ skus:
     image:
       src: "/images/products/greeting-cards/collections/collection-i-love/KO546-G24_Greeting card 5x7 _Collection I love_Mom Tks Being You_touch mom's face.jpg"
       alt: "Greeting card thanking mom for being herself with a tender cheek touch illustration."
+  - id: "KO546-G48"
+    name: "I Love My Family (Chubby Legs, Yellow)"
+    price: 8
+    image:
+      src: "/images/products/greeting-cards/collections/collection-i-love/KO546-G48_Greeting card 5x7 _Collection I love_I love my family_Chubby legs_Yellow.jpg"
+      alt: "Greeting card reading I love my family with chubby legs illustration on yellow."
+  - id: "KO546-G49"
+    name: "I Love My Mom (Hi5, Red)"
+    price: 8
+    image:
+      src: "/images/products/greeting-cards/collections/collection-i-love/KO546-G49_Greeting card 5x7 _Collection I love_I love my mom_Hi5_Red.jpg"
+      alt: "Greeting card reading I love my mom with hi-five illustration on red."
 order_subject_prefix: "Greeting Card Order"
 seo:
   title: "I Love Greeting Card Collection | Kati Sunray STUDIO"
@@ -67,3 +79,4 @@ seo:
 ---
 
 Share heartfelt words that say exactly what someone needs to hear—morning, noon, or midnight.
+

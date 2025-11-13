@@ -9,8 +9,8 @@ permalink: "/shop/art-print/collections/{{ slug }}/index.html"
 summary: "Reflective visuals encouraging you to pause and soak up the moment."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
-  src: "/images/products/arts-prints/collections/ART PRINT - Collection ‘Mindful Presence’.jpg"
-  alt: "Framed Mindful Presence art prints in serene greens and yellows."
+  src: "/images/products/arts-prints/collections/hero-mindful-presence-collection-v6.jpg"
+  alt: "Mindful Presence collection hero wall with grounding greens and warm golden hues."
 skus:
   - id: "KO546-P03"
     name: "Being Present"
@@ -72,6 +72,12 @@ skus:
     image:
       src: "/images/products/arts-prints/collections/collection-mindful-presence/KO546-P55_Art print 8.5x11_Collection Mindful Presence_Be present Be here Now - blue back.jpg"
       alt: "Art print titled \"Be Present Be Here Now (Blue Back)\" from the Mindful Presence Collection."
+  - id: "KO546-P57"
+    name: "Calm Your Mind (Sunset Painting)"
+    price: 18
+    image:
+      src: "/images/products/arts-prints/collections/collection-mindful-presence/KO546-P57_Art print 8.5x11_Collection Mindful Presence_Calm your mind_Sunset painting.jpg"
+      alt: "Art print titled \"Calm Your Mind\" with a sunset painting palette from the Mindful Presence Collection."
 order_subject_prefix: "Art Print Order"
 seo:
   title: "Mindful Presence Collection | Kati Sunray STUDIO"
@@ -79,5 +85,6 @@ seo:
 ---
 
 Invite grounding rituals and mindful check-ins with art that celebrates presence as the most meaningful gift.
+
 
 

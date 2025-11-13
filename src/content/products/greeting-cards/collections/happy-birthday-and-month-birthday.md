@@ -9,8 +9,8 @@ permalink: "/shop/greeting-cards/collections/{{ slug }}/index.html"
 summary: "Festive cards that make every milestone—big or small—feel cherished."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
-  src: "/images/products/greeting-cards/collections/GREETING CARDS - Collection ‘Happy Birthday and Month-Birthday’.jpg"
-  alt: "Birthday and month-birthday greeting cards arranged with confetti and envelopes."
+  src: "/images/products/greeting-cards/collections/hero-gc-happy-birthday-v6.jpg"
+  alt: "Happy Birthday & Month-Birthday hero image featuring refreshed celebratory cards."
 skus:
   - id: "KO546-G12"
     name: "Happy 1st Birthday"
@@ -36,6 +36,12 @@ skus:
     image:
       src: "/images/products/greeting-cards/collections/collection-happy-birthday-and-month-birthday/KO546-G15_Greeting card 5x7 _Collection Happy Birthday and Month-Birthday_Happy Month Bday_Baby turning_light pink.jpg"
       alt: "Monthly birthday greeting card with a turning baby illustration on blush pink."
+  - id: "KO546-G47"
+    name: "Happy Birthday (Elephant, Yellow)"
+    price: 8
+    image:
+      src: "/images/products/greeting-cards/collections/collection-happy-birthday-and-month-birthday/KO546-G47_Greeting card 5x7 _Collection Happy Birthday and Month-Birthday_Happy Birthday_Elephant_Yellow.jpg"
+      alt: "Birthday greeting card featuring an elephant illustration on a sunny yellow background."
 order_subject_prefix: "Greeting Card Order"
 seo:
   title: "Happy Birthday & Month-Birthday Greeting Card Collection | Kati Sunray STUDIO"
@@ -43,3 +49,4 @@ seo:
 ---
 
 Send joyful wishes for first-month celebrations, golden birthdays, and every candle-blowing moment in between.
+

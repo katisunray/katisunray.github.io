@@ -9,8 +9,8 @@ permalink: "/shop/greeting-cards/collections/{{ slug }}/index.html"
 summary: "A gentle reminder that caretakers deserve rest, gratitude, and tender words."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
-  src: "/images/products/greeting-cards/collections/GREETING CARDS - Collection ‘Caregivers, You are loved’.jpg"
-  alt: "Caregivers greeting card collection displayed alongside cozy textures and envelopes."
+  src: "/images/products/greeting-cards/collections/hero-gc-caregivers-v6.jpg"
+  alt: "Caregivers, You Are Loved hero spread with refreshed cozy neutrals."
 skus:
   - id: "KO546-G07"
     name: "Dad Love You"
@@ -36,6 +36,18 @@ skus:
     image:
       src: "/images/products/greeting-cards/collections/collection-caregivers-you-are-loved/KO546-G30_Greeting card 5x7 _Collection Caregivers You are loved_Superwoman_touch mom's face_light orange.jpg"
       alt: "Greeting card titled Superwoman featuring a maternal figure and child against a warm orange wash."
+  - id: "KO546-G48"
+    name: "I Love My Family (Chubby Legs, Yellow)"
+    price: 8
+    image:
+      src: "/images/products/greeting-cards/collections/collection-caregivers-you-are-loved/KO546-G48_Greeting card 5x7 _Collection Caregivers You are loved_I love my family_Chubby legs_Yellow.jpg"
+      alt: "Greeting card reading I love my family with chubby legs artwork on yellow."
+  - id: "KO546-G49"
+    name: "I Love My Mom (Hi5, Red)"
+    price: 8
+    image:
+      src: "/images/products/greeting-cards/collections/collection-caregivers-you-are-loved/KO546-G49_Greeting card 5x7 _Collection Caregivers You are loved_I love my mom_Hi5_Red.jpg"
+      alt: "Greeting card reading I love my mom with hi-five motif on red."
 order_subject_prefix: "Greeting Card Order"
 seo:
   title: "Caregivers, You Are Loved Greeting Card Collection | Kati Sunray STUDIO"
@@ -43,3 +55,4 @@ seo:
 ---
 
 Thank the everyday heroes who soothe scraped knees, plan meals, and pour endless love into family life.
+

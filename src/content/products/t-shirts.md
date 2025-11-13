@@ -10,7 +10,7 @@ type: "T-SHIRTS"
 sku: "TS-SOFT-UNISEX"
 collection_tags: ["apparel","gifts"]
 images:
-  - src: "/images/products/t-shirts/HERO TSHIRT collection mock up.jpg"
+  - src: "/images/products/t-shirts/hero-tshirts-v6.jpg"
     alt: "Assorted family-inspired and family-inspired t-shirts and tanks."
 buy_url: "mailto:katisunray@gmail.com?subject=T-Shirt%20Order"
 in_stock: true

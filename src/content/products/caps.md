@@ -10,7 +10,7 @@ type: "CAPS"
 sku: "CAPS-STUDIO"
 collection_tags: ["apparel","accessories"]
 images:
-  - src: "/images/products/caps/caps.jpg"
+  - src: "/images/products/caps/hero-caps-v6.jpg"
 buy_url: "mailto:katisunray@gmail.com?subject=Caps%20Order"
 in_stock: true
 home_feature_order: 9
@@ -77,6 +77,13 @@ collection_sets:
           src: "/images/products/caps/KO546-C08_Cap_Collection Best_Best Grandpa (Red Embroiderie).jpg"
           alt: "Cap with red embroidered lettering that reads \"Best Grandpa.\""
         description: "Matching red embroidered cap celebrating the best grandpa."
+      - id: "KO546-C09"
+        name: "Disconnect to Connect (Black Embroidery)"
+        price: 45
+        image:
+          src: "/images/products/caps/KO546-C09_Cap_Collection Mindful Presence_Disconnect to Connect (Black Embroiderie).jpg"
+          alt: "Black embroidered cap that reads \"Disconnect to Connect\" from the Mindful Presence collection."
+        description: "Mindful Presence design stitched in black-on-black embroidery to invite more offline togetherness."
 ---
 
 Celebrate the simple, precious moments of family life with this 6-panel structured cap that is all about comfort, style, and fit. With an adjustable closure, it fits most head sizes. Perfect for cozy days with your little ones or gifting to fellow caregivers.

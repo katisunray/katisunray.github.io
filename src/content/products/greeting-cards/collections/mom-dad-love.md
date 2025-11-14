@@ -56,13 +56,13 @@ skus:
       alt: "Greeting card celebrating Superwoman energy with a caregiver and child on light orange."
   - id: "KO546-G48"
     name: "I Love My Family (Chubby Legs, Yellow)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-mom-dad-love/KO546-G48_Greeting card 5x7 _Collection Mom Dad Love_I love my family_Chubby legs_Yellow_.jpg"
       alt: "Greeting card declaring I love my family with chubby legs illustration on yellow."
   - id: "KO546-G49"
     name: "I Love My Mom (Hi5, Red)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-mom-dad-love/KO546-G49_Greeting card 5x7 _Collection Mom Dad Love_I love my mom_Hi5_Red.jpg"
       alt: "Greeting card declaring I love my mom with a hi-five motif on red."

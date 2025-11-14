@@ -6,7 +6,7 @@ parent_product_slug: "art-print"
 parent_page_label: "Art Prints"
 order: 2
 permalink: "/shop/art-print/collections/{{ slug }}/index.html"
-summary: "Encouraging words to wrap babies and kids in love."
+summary: "Our Baby Nursery Wall Art Print Collection - encouraging words to wrap babies and kids in love."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
 hero_image:
   src: "/images/products/arts-prints/collections/hero-thoughtful-messages-for-baby-v6.jpg"

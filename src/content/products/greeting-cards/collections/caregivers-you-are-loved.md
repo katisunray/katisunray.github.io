@@ -38,13 +38,13 @@ skus:
       alt: "Greeting card titled Superwoman featuring a maternal figure and child against a warm orange wash."
   - id: "KO546-G48"
     name: "I Love My Family (Chubby Legs, Yellow)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-caregivers-you-are-loved/KO546-G48_Greeting card 5x7 _Collection Caregivers You are loved_I love my family_Chubby legs_Yellow.jpg"
       alt: "Greeting card reading I love my family with chubby legs artwork on yellow."
   - id: "KO546-G49"
     name: "I Love My Mom (Hi5, Red)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-caregivers-you-are-loved/KO546-G49_Greeting card 5x7 _Collection Caregivers You are loved_I love my mom_Hi5_Red.jpg"
       alt: "Greeting card reading I love my mom with hi-five motif on red."

@@ -32,13 +32,13 @@ skus:
       alt: "Greeting card that reads 'Wishing precious moments' with soft abstract watercolor strokes."
   - id: "KO546-G45"
     name: "Happy Baby Shower (Feet in Heart, Pink)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G45_Greeting card 5x7 _Collection Baby Shower & Labor_Happy Baby Shower_Feet in heart hands_Pink.jpg"
       alt: "Greeting card wishing a happy baby shower with feet in heart illustration on pink."
   - id: "KO546-G46"
     name: "Happy Baby Shower (Pinching Fingers, Beige)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G46_Greeting card 5x7 _Collection Baby Shower & Labor_Happy Baby Shower_Pinching fingers_Beige.jpg"
       alt: "Greeting card wishing a happy baby shower with pinching fingers artwork on beige."
@@ -49,5 +49,6 @@ seo:
 ---
 
 Offer heartfelt encouragement for birthing people and the support teams cheering them on through every wave and celebration.
+
 
 

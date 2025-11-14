@@ -62,13 +62,13 @@ skus:
       alt: "Greeting card thanking mom for being herself with a tender cheek touch illustration."
   - id: "KO546-G48"
     name: "I Love My Family (Chubby Legs, Yellow)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-i-love/KO546-G48_Greeting card 5x7 _Collection I love_I love my family_Chubby legs_Yellow.jpg"
       alt: "Greeting card reading I love my family with chubby legs illustration on yellow."
   - id: "KO546-G49"
     name: "I Love My Mom (Hi5, Red)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-i-love/KO546-G49_Greeting card 5x7 _Collection I love_I love my mom_Hi5_Red.jpg"
       alt: "Greeting card reading I love my mom with hi-five illustration on red."

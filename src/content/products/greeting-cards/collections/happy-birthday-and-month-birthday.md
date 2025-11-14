@@ -38,7 +38,7 @@ skus:
       alt: "Monthly birthday greeting card with a turning baby illustration on blush pink."
   - id: "KO546-G47"
     name: "Happy Birthday (Elephant, Yellow)"
-    price: 8
+    price: 10
     image:
       src: "/images/products/greeting-cards/collections/collection-happy-birthday-and-month-birthday/KO546-G47_Greeting card 5x7 _Collection Happy Birthday and Month-Birthday_Happy Birthday_Elephant_Yellow.jpg"
       alt: "Birthday greeting card featuring an elephant illustration on a sunny yellow background."

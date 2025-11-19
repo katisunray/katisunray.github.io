@@ -30,7 +30,7 @@ seo:
           <div>
             <h2 class="text-3xl font-serif font-semibold text-gradient mb-6">Our Story</h2>
             <p class="text-lg text-neutral-700 leading-relaxed mb-6">
-              Kati Sunray STUDIO creates heartfelt gifts for families: books, greeting cards, art prints, baby onesies and keepsakes that capture the essence of those precious, fleeting moments with our little ones. 
+              Kati Sunray STUDIO creates heartfelt gifts for families and Mindful Presence Lovers: books, greeting cards, art prints, baby onesies, tote bags and keepsakes that capture the essence of those precious, fleeting moments with our little ones. 
             </p>
             <p class="text-lg text-neutral-700 leading-relaxed">
               Each piece is designed to remind us to slow down, be present, and cherish the simple joys that children bring into our lives.

@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Tote Bags"
 slug: "tote-bags"
 permalink: "/shop/{{ slug }}/index.html"
-price: 35
+price: 40
 shop_list_order: 5
 currency: "CAD"
 type: "TOTE BAGS"

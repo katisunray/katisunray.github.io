@@ -16,7 +16,7 @@ skus:
     name: "We will always be here for you"
     price: 18
     image:
-      src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P01_Art print 8.5x11_Collection Thoughtful Messages for BabyKid_ALways be here for you -  Pinching fingers - sunset.jpg"
+      src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P01_ThoughtfulMessages_PinchingSunset.jpg"
       alt: "Art print titled \"Always Be Here For You (Pinching Fingers, Sunset)\" from the Thoughtful Messages for Baby Collection."
   - id: "KO546-P02"
     name: "Be You, Little One!"
@@ -70,7 +70,7 @@ skus:
     name: "Dream Big Little One (Feet in Hands, Pastel Red)"
     price: 18
     image:
-      src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P64_Art print 8.5x11_Collection Thoughtful Messages for BabyKid_Dream big little one_Feet in hands_Heart_Pastel red.jpg"
+      src: "/images/products/arts-prints/collections/collection-thoughtful-messages-for-baby/KO546-P64_ThoughtfulMessages_DreamBigPastel.jpg"
       alt: "Art print titled \"Dream Big Little One\" featuring feet in hands illustration on pastel red."
   - id: "KO546-P65"
     name: "Dream Big Little One (Hold Finger, Green)"
@@ -85,4 +85,3 @@ seo:
 ---
 
 Positive affirmations and gentle imagery help littles feel seen, supported, and joyfully welcomed.
-

@@ -16,7 +16,7 @@ skus:
     name: "Happy Baby Shower (Illustrations collage)"
     price: 8
     image:
-      src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G02_Greeting card 5x7 _Collection Baby Shower & Labor_Baby Shower -Flower, Newborn Swaddle, Love ones_yellow lightie, pinching.jpg"
+      src: "/images/products/greeting-cards/collections/collection-baby-shower-labor/KO546-G02_BabyShower_FlowerSwaddle.jpg"
       alt: "Baby shower greeting card with a swaddled newborn surrounded by blooming flowers and family hands."
   - id: "KO546-G17"
     name: "Wishing You Serenity During Labor"

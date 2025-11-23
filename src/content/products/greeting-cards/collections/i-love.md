@@ -22,7 +22,7 @@ skus:
     name: "Grandparents You Are So Loved"
     price: 8
     image:
-      src: "/images/products/greeting-cards/collections/collection-i-love/KO546-G11_Greeting card 5x7 _Collection I love_Grandparents you are loved_newborn snuggle_purple sky.jpg"
+      src: "/images/products/greeting-cards/collections/collection-i-love/KO546-G11_GrandparentsLoved_PurpleSky.jpg"
       alt: "Greeting card expressing Grandparents you are loved with a snuggling family scene."
   - id: "KO546-G18"
     name: "I Love My Auntie"
@@ -79,4 +79,3 @@ seo:
 ---
 
 Share heartfelt words that say exactly what someone needs to hear—morning, noon, or midnight.
-

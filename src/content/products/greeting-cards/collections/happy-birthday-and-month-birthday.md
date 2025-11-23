@@ -34,7 +34,7 @@ skus:
     name: "Happy Month Birthday"
     price: 8
     image:
-      src: "/images/products/greeting-cards/collections/collection-happy-birthday-and-month-birthday/KO546-G15_Greeting card 5x7 _Collection Happy Birthday and Month-Birthday_Happy Month Bday_Baby turning_light pink.jpg"
+      src: "/images/products/greeting-cards/collections/collection-happy-birthday-and-month-birthday/KO546-G15_Birthday_HappyMonthPink.jpg"
       alt: "Monthly birthday greeting card with a turning baby illustration on blush pink."
   - id: "KO546-G47"
     name: "Happy Birthday (Elephant, Yellow)"
@@ -49,4 +49,3 @@ seo:
 ---
 
 Send joyful wishes for first-month celebrations, golden birthdays, and every candle-blowing moment in between.
-

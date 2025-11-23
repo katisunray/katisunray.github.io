@@ -4,7 +4,7 @@ title: "I Love Collection"
 slug: "i-love"
 parent_product_slug: "greeting-cards"
 parent_page_label: "Greeting Cards"
-order: 1
+order: 14
 permalink: "/shop/greeting-cards/collections/{{ slug }}/index.html"
 summary: "Simple, soulful affirmations for the people you hold closest."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."

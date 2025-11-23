@@ -4,7 +4,7 @@ title: "Happy Holidays Collection"
 slug: "happy-holidays"
 parent_product_slug: "greeting-cards"
 parent_page_label: "Greeting Cards"
-order: 14
+order: 1
 permalink: "/shop/greeting-cards/collections/{{ slug }}/index.html"
 summary: "Festive greetings for winter holidays, New Year wishes, and cozy seasonal moments."
 order_prompt: "Email us with the SKU code and desired quantity to place your order."
@@ -61,4 +61,3 @@ seo:
 ---
 
 Send cozy cards for Christmas and fresh New Year wishes — all illustrated with warmth and whimsy.
-

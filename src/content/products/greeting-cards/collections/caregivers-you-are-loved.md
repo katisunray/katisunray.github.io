@@ -22,7 +22,7 @@ skus:
     name: "Grandparents You Are Loved"
     price: 8
     image:
-      src: "/images/products/greeting-cards/collections/collection-caregivers-you-are-loved/KO546-G11_Greeting card 5x7 _Collection Caregivers You are loved_Grandparents you are loved_newborn snuggle_purple sky.jpg"
+      src: "/images/products/greeting-cards/collections/collection-caregivers-you-are-loved/KO546-G11_GrandparentsLoved_PurpleSky.jpg"
       alt: "Greeting card that reads Grandparents you are loved with a cozy newborn snuggle illustration."
   - id: "KO546-G24"
     name: "Mom Thanks for Being You"
@@ -55,4 +55,3 @@ seo:
 ---
 
 Thank the everyday heroes who soothe scraped knees, plan meals, and pour endless love into family life.
-

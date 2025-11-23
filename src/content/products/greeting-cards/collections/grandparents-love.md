@@ -34,7 +34,7 @@ skus:
     name: "Grandparents You Are Loved"
     price: 8
     image:
-      src: "/images/products/greeting-cards/collections/collection-grandparents-love/KO546-G11_Greeting card 5x7 _Collection Grandparents Love_Grandparents you are loved_newborn snuggle_purple sky.jpg"
+      src: "/images/products/greeting-cards/collections/collection-grandparents-love/KO546-G11_GrandparentsLoved_PurpleSky.jpg"
       alt: "Greeting card reading Grandparents you are loved with a purple sky embrace illustration."
   - id: "KO546-G20"
     name: "Love Grandpas"

@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Kids' T-Shirts"
 slug: "kids-t-shirts"
 permalink: "/shop/{{ slug }}/index.html"
-price: 45
+price: 50
 shop_list_order: 7
 currency: "CAD"
 type: "KIDS' T-SHIRTS"
@@ -106,6 +106,7 @@ Celebrate the simple, precious moments of family life with soft cotton tees feat
 - Kids Gildan Heavy Cotton™ Youth T-shirt (Classic fit for loose comfort / Size chart below - Size 6 onwards).
 - Material: 100% cotton.
 - Recommended to choose a size bigger than your regular size due to normal shrinkage rate (~5-7%).
+
 
 
 

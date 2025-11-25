@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "T-Shirts"
 slug: "t-shirts"
 permalink: "/shop/{{ slug }}/index.html"
-price: 45
+price: 50
 shop_list_order: 11
 currency: "CAD"
 type: "T-SHIRTS"

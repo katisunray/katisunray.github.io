@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Baby Clothing"
 slug: "baby-clothing"
 permalink: "/shop/{{ slug }}/index.html"
-price: 45-55
+price: 50-55
 shop_list_order: 6
 currency: "CAD"
 type: "BABY CLOTHING"
@@ -23,21 +23,21 @@ collection_sets:
     skus:
       - id: "KO546-K01"
         name: "I Love Mom (Long Sleeve, Black)"
-        price: 45
+        price: 55
         image:
           src: "/images/products/baby-clothing/KO546-K01_Baby Bodysuit Long-Sleeved_Collection I love_I Love Mom (Hi 5_red heart_white outline)_BLACK_12-18m.jpg"
           alt: "Black long-sleeved baby bodysuit with a red heart and the phrase \"I love mom.\""
         description: "Long-sleeved black bodysuit with a hi-five illustration celebrating mom."
       - id: "KO546-K02"
         name: "I Love Grandma (Short Sleeve, Red)"
-        price: 45
+        price: 50
         image:
           src: "/images/products/baby-clothing/KO546-K02_Baby Bodysuit Short-Sleeved_Collection I love_I Love Grandma (hand hold finger_Blue heart_white outline)_RED_12-18m.jpg"
           alt: "Red short-sleeved baby bodysuit with a blue heart and \"I love grandma\" lettering."
         description: "Bright red short-sleeved bodysuit featuring grandma's loving hand hold."
       - id: "KO546-K03"
         name: "I Love Dad (Short Sleeve, Heather Grey)"
-        price: 45
+        price: 50
         image:
           src: "/images/products/baby-clothing/KO546-K03_Baby Bodysuit Short-Sleeved_Collection I love_I Love Dad (Hi5_Blue heart_white outline)_GREY_12-18m.jpg"
           alt: "Heather grey short-sleeved bodysuit with a blue heart and \"I love dad.\" message."
@@ -62,6 +62,7 @@ Perfect for cozy days with your little ones or gifting to other new families.
 - Easy to dress and undress.
 - Poppers at the bottom.
 - Recommended to choose a size bigger than your regular size due to normal shrinkage rate (~5-7%).
+
 
 
 

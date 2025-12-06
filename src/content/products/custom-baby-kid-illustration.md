@@ -13,6 +13,7 @@ images:
   - src: "/images/products/custom-illustrations/HERO_Custom illustration_HERO image website_ v2_5x7.jpg"
     alt: "Custom baby and kid illustration art prints displayed with coloured pencils."
 buy_url: "mailto:katisunray@gmail.com?subject=Custom%20Illustration%20Order"
+hide_shopify_button: true
 in_stock: true
 home_feature_order: 3
 seo:

@@ -10,8 +10,11 @@
     <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">
       <div class="container-custom">
         <div class="flex items-center justify-between py-4">
-          <a href="{{ '/' | url }}" class="text-2xl font-serif font-semibold text-gradient hover:scale-105 transition-transform duration-200">
-            {{ site.name }}
+          <a href="{{ '/' | url }}" class="flex items-center gap-3 group">
+            <img src="{{ '/images/products/katisunray_logo.png' | url }}" alt="Kati Sunray logo" class="h-10 w-auto rounded-full shadow-sm bg-white object-contain" loading="lazy" decoding="async" />
+            <span class="text-2xl font-serif font-semibold text-gradient group-hover:scale-105 transition-transform duration-200 origin-left">
+              {{ site.name }}
+            </span>
           </a>
           <button class="md:hidden p-3 rounded-xl border border-neutral-200 hover:border-neutral-300 hover:bg-neutral-50 transition-all duration-200" aria-label="Toggle menu" data-menu-toggle>
             <span class="block w-5 h-0.5 bg-neutral-800 mb-1.5 transition-all duration-200"></span>
@@ -51,6 +54,7 @@
               <a href="{{ '/' | url }}" class="block text-neutral-300 hover:text-white transition-colors duration-200">Home</a>
               <a href="{{ '/shop/' | url }}" class="block text-neutral-300 hover:text-white transition-colors duration-200">Shop</a>
               <a href="{{ '/about/' | url }}" class="block text-neutral-300 hover:text-white transition-colors duration-200">About</a>
+              <a href="{{ '/' | url }}#where-you-can-find-us" class="block text-neutral-300 hover:text-white transition-colors duration-200">Where you can find us</a>
             </nav>
           </div>
           <div class="space-y-4">

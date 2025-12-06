@@ -6,12 +6,11 @@ layout: layouts/base.njk
 {% if parentSlug %}
   {% set parentUrl = '/shop/' ~ parentSlug ~ '/' %}
 {% endif %}
-{% set orderEmail = order_email or (site and site.author and site.author.email) or 'katisunray@gmail.com' %}
-{% set subjectPrefix = order_subject_prefix or 'Greeting Card Order' %}
 {% set matchingProducts = collections.products | filterByData('slug', parentSlug) %}
 {% set parentProduct = matchingProducts and matchingProducts[0] %}
 {% set parentCurrency = parentProduct and parentProduct.data and parentProduct.data.currency or 'CAD' %}
 {% set parentPrice = parentProduct and parentProduct.data and parentProduct.data.price %}
+{% set shopifyUrl = (site and site.shopify_url) or 'https://katisunraystudio.myshopify.com/?utm_source=katisunray.io' %}
 
 <article class="py-10">
   <div class="container-custom">
@@ -28,9 +27,20 @@ layout: layouts/base.njk
           {% if summary %}
             <p class="text-base leading-relaxed text-slate-700">{{ summary }}</p>
           {% endif %}
+          {% if parentPrice %}
+            <p class="mt-4 text-lg font-semibold text-neutral-800">${{ parentPrice }} {{ parentCurrency }}</p>
+          {% endif %}
           {% if content %}
             <div class="mt-4 text-base leading-relaxed text-slate-700 space-y-4 max-w-prose">{{ content | safe }}</div>
           {% endif %}
+          <div class="mt-6 flex flex-wrap items-center gap-3">
+            <a href="{{ shopifyUrl }}" class="btn-primary inline-flex items-center gap-2" target="_blank" rel="noopener">
+              Shop Now
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -54,30 +64,12 @@ layout: layouts/base.njk
                 {% if sku.name %}
                   <p class="text-base font-medium">{{ sku.name }}</p>
                 {% endif %}
-                {% set skuPrice = sku.price or parentPrice %}
-                {% set skuCurrency = sku.currency or parentCurrency %}
-                {% if skuPrice %}
-                  <p class="text-sm font-semibold text-brand-600">${{ skuPrice }} {{ skuCurrency }}</p>
-                {% endif %}
                 {% if sku.message %}
                   <p class="text-sm text-slate-600">{{ sku.message }}</p>
                 {% endif %}
                 {% if sku.description %}
                   <p class="text-sm text-slate-600 leading-relaxed">{{ sku.description }}</p>
                 {% endif %}
-                <div class="mt-auto pt-4 border-t border-gray-200">
-                  {% set subject = (subjectPrefix ~ ' - SKU ' ~ sku.id) | encodeURIComponent %}
-                  {% set bodyText %}
-Hi Kati,
-
-I would like to order SKU {{ sku.id }} (Quantity: ___).
-Price: ${{ skuPrice or parentPrice }} {{ skuCurrency }}
-
-Thank you!
-                  {% endset %}
-                  {% set body = bodyText | trim | encodeURIComponent %}
-                  <a href="mailto:{{ orderEmail }}?subject={{ subject }}&body={{ body }}" class="btn-primary inline-flex items-center gap-2 mt-3">Order by Email</a>
-                </div>
               </div>
             </div>
           {% endfor %}

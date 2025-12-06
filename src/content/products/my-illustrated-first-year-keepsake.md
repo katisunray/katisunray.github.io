@@ -12,6 +12,7 @@ images:
   - src: "/images/products/my-illustrated-first-year/HERO_MY ILLUSTRATED FIRST YEAR_image website_ 5x7.jpg"
     alt: "\"My Illustrated First Year\" custom illustration art prints arranged with coloured pencils."
 buy_url: "mailto:katisunray@gmail.com?subject=My%20Illustrated%20First%20Year%20Keepsake%20Order"
+hide_shopify_button: true
 in_stock: true
 seo:
   title: "\"My Illustrated First Year\" Keepsake | Kati Sunray STUDIO"

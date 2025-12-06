@@ -14,6 +14,7 @@ images:
   - src: "/images/products/custom-magnificent-little-you/HERO_MAGNIFICENT LITTLE YOU_image website_ 5x7.jpg"
     alt: "Custom 'Magnificent Little You' art line print displayed against a sunset background."
 buy_url: "mailto:katisunray@gmail.com?subject=Custom%20Magnificent%20Little%20You%20Art%20Line%20Print%20Order"
+hide_shopify_button: true
 in_stock: true
 seo:
   title: "Custom 'Magnificent Little You' Art Line Print | Kati Sunray STUDIO"

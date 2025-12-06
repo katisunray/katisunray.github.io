@@ -13,6 +13,7 @@ images:
   - src: "/images/products/mindful-presence-workshops/hero.svg"
 buy_url: "mailto:katisunray@gmail.com?subject=Mindful%20Presence%20%26%20Parenting%20Workshops%20Waitlist"
 buy_button_label: "Request more information"
+hide_shopify_button: true
 in_stock: false
 home_feature_order: 14
 seo:

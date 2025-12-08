@@ -138,7 +138,8 @@ Designed to bring joy to families and create lasting memories, celebrating simpl
 
 - Thoughtfully designed and printed in Ontario, Canada. Illustrations were hand-drawn and most of the writting was handwritten in Toronto.
 - Explore the products in the links below.
-- Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
+- Looking for a specific product you don’t see in our online store? Email us with your request (or the SKU number below) and we’ll get back to you.
+- Order timeline (if product is not available in our online store): 10 business days to process + shipping (additional shipping cost)
 - Available in limited runs - email us with your preferred size, color, and design to order.
 
 **Details**

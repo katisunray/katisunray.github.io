@@ -33,7 +33,8 @@ collection_sets:
 Celebrate the simple, precious moments of family life with this toque that is all about comfort, style, and fit. Featuring 3M™ Thinsulate™ insulation, this custom toque offers breathable, moisture-free warmth. Perfect for cozy days with your little ones or gifting to fellow caregivers.
 
 - Thoughtfully designed and embroidery produced in Ontario, Canada.
-- Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
+- Looking for a specific product you don’t see in our online store? Email us with your request (or the SKU number below) and we’ll get back to you.
+- Order timeline (if product is not available in our online store): 10 business days to process + shipping (additional shipping cost)
 
 **Details**
 
@@ -43,3 +44,4 @@ Celebrate the simple, precious moments of family life with this toque that is al
 - Internal lining: 3M™ Thinsulate™, insulated.
 - Cuffed.
 - Decoration: Embroidery.
+

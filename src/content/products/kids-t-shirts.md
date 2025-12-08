@@ -97,7 +97,8 @@ Celebrate the simple, precious moments of family life with soft cotton tees feat
 
 - Thoughtfully designed and printed in Ontario, Canada. Illustrations were hand-drawn and most of the writting was handwritten in Toronto.
 - Explore the products in the list below.
-- Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
+- Looking for a specific product you don’t see in our online store? Email us with your request (or the SKU number below) and we’ll get back to you.
+- Order timeline (if product is not available in our online store): 10 business days to process + shipping (additional shipping cost)
 
 **Details**
 
@@ -106,6 +107,7 @@ Celebrate the simple, precious moments of family life with soft cotton tees feat
 - Kids Gildan Heavy Cotton™ Youth T-shirt (Classic fit for loose comfort / Size chart below - Size 6 onwards).
 - Material: 100% cotton.
 - Recommended to choose a size bigger than your regular size due to normal shrinkage rate (~5-7%).
+
 
 
 

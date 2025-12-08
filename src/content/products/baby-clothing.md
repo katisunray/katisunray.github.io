@@ -50,7 +50,8 @@ Perfect for cozy days with your little ones or gifting to other new families.
 
 - Thoughtfully designed and printed in Ontario, Canada. Illustrations were hand-drawn in Toronto.
 - Explore the products in the list below.
-- Order timeline: 10 business days to process (2 weeks) + shipping (additional shipping cost).
+- Looking for a specific product you don’t see in our online store? Email us with your request (or the SKU number below) and we’ll get back to you.
+- Order timeline (if product is not available in our online store): 10 business days to process + shipping (additional shipping cost)
 
 **Details**
 
@@ -62,6 +63,7 @@ Perfect for cozy days with your little ones or gifting to other new families.
 - Easy to dress and undress.
 - Poppers at the bottom.
 - Recommended to choose a size bigger than your regular size due to normal shrinkage rate (~5-7%).
+
 
 
 

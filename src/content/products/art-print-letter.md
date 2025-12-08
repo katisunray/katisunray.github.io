@@ -24,9 +24,9 @@ Designed and printed in Ontario, Canada.
 
 Explore the full collection in the links below.
 
-Order timeline: 5 business days to process + shipping (additional shipping cost)
+Looking for a specific product you don’t see in our online store? Email us with your request (or the SKU number below) and we’ll get back to you.
 
-Email us to request specific artwork or collection.
+Order timeline (if product is not available in our online store): 5 business days to process + shipping (additional shipping cost)
 
 *Option to buy digital file and print at your own convenience. Email for details and pricing.
 

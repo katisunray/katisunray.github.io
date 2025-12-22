@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Beanie Toque"
 slug: "beanie-toque"
 permalink: "/shop/{{ slug }}/index.html"
-price: 45
+price: 50
 shop_list_order: 10
 currency: "CAD"
 type: "BEANIE TOQUE"
@@ -44,4 +44,5 @@ Celebrate the simple, precious moments of family life with this toque that is al
 - Internal lining: 3M™ Thinsulate™, insulated.
 - Cuffed.
 - Decoration: Embroidery.
+
 

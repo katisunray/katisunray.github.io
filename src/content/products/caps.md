@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Caps"
 slug: "caps"
 permalink: "/shop/{{ slug }}/index.html"
-price: 45-50
+price: 50-55
 shop_list_order: 9
 currency: "CAD"
 type: "CAPS"
@@ -102,6 +102,7 @@ Celebrate the simple, precious moments of family life with this 6-panel structur
 - Decoration: Embroidery or printed/heat transfer (see image for detail).
   - Embroidery cap: 6-panel structured hat.
   - Printed cap: 5-panel structured hat.
+
 
 
 

@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Art Print (Letter Size)"
 slug: "art-print"
 permalink: "/shop/{{ slug }}/index.html"
-price: 18
+price: 25
 shop_list_order: 1
 currency: "CAD"
 sku: "P-ART-LETTER"

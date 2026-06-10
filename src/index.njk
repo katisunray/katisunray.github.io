@@ -59,16 +59,36 @@ seo:
 </section>
 
 <!-- Where You Can Find Us Section -->
-<section class="section-padding bg-gradient-to-br from-neutral-50 to-brand-50">
+<section id="where-you-can-find-us" class="section-padding bg-gradient-to-br from-neutral-50 to-brand-50">
   <div class="container-custom">
     <div class="max-w-3xl mx-auto text-center space-y-6">
       <h2 class="text-3xl md:text-4xl font-serif font-semibold text-gradient">Where You Can Find Us</h2>
       <div class="space-y-3 text-neutral-700 text-lg leading-relaxed">
         <p>Available at <a class="text-brand-600 hover:text-brand-700" href="https://maps.google.com/?q=Makers%20The%20Beaches%2C%201984%20Queen%20St%20E%2C%20Toronto%2C%20ON%20M4L%201J2" target="_blank" rel="noopener">Makers The Beaches, 1984 Queen St E, Toronto, ON M4L 1J2</a></p>
-        <p>Or BUY ONLINE and get delivered to the comfort of your home via our <a class="text-brand-600 hover:text-brand-700" href="https://katisunraystudio.myshopify.com/" target="_blank" rel="noopener">Shopify store</a>.</p>
-        <p>Online/ecommerce direct orders by <a class="text-brand-600 hover:text-brand-700" href="mailto:katisunray@gmail.com">email</a> and e-transfer (shipping cost extra).</p>
+        <p>Or BUY ONLINE and get the products delivered right to your home via our <a class="text-brand-600 hover:text-brand-700" href="{{ site.shopify_url }}" target="_blank" rel="noopener">Shopify store</a>.</p>
+        <p>Direct orders by <a class="text-brand-600 hover:text-brand-700" href="mailto:katisunray@gmail.com">email</a> and e-transfer in case the product is not in the Shopify store (shipping cost extra).</p>
         <p>Baby book available at <a class="text-brand-600 hover:text-brand-700" href="https://a.co/d/be3MDU6" target="_blank" rel="noopener">Amazon</a>.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- Instagram Section -->
+<section id="instagram" class="section-padding bg-white">
+  <div class="container-custom">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-serif font-semibold text-gradient mb-4">Follow Along on Instagram</h2>
+      <p class="text-xl text-neutral-600 max-w-2xl mx-auto">
+        New products, mindful-parenting moments, and the beautiful chaos of family life — see it all on <a class="text-brand-600 hover:text-brand-700" href="https://instagram.com/{{ site.author.social.instagram }}" target="_blank" rel="noopener noreferrer">@{{ site.author.social.instagram }}</a>.
+      </p>
+    </div>
+    <div class="max-w-5xl mx-auto">
+      {% include "partials/instagram-feed.njk" %}
+    </div>
+    <div class="text-center mt-12">
+      <a href="{{ '/instagram/' | url }}" class="btn-secondary">
+        See more on Instagram
+      </a>
     </div>
   </div>
 </section>

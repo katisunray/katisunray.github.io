@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Mindful Presence & Parenting Coaching"
 slug: "mindful-presence-parenting-coaching"
 permalink: "/shop/{{ slug }}/index.html"
-price_label: "Programs available February 2026"
+price_label: "Programs available October 2026"
 shop_list_order: 15
 currency: ""
 sku: "COACHING-MPP"
@@ -22,7 +22,6 @@ seo:
 ---
 
 - Awaken your presence, clarify your values and needs, and align with your strengths — in life, work, and parenthood/motherhood.
-- Programs starting the first half of 2026.
 - Join the waiting list by email.
 - “Clarity. Presence. A fulfilled and meaningful life.”
 

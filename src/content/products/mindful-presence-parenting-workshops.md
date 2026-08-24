@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Mindful Presence & Parenting Workshops"
 slug: "mindful-presence-parenting-workshops"
 permalink: "/shop/{{ slug }}/index.html"
-price_label: "Workshops begin in the first half of 2026"
+price_label: "Workshops begin in the first half of 2027"
 shop_list_order: 14
 currency: ""
 sku: "WORKSHOP-MPP"
@@ -24,6 +24,6 @@ seo:
 - Our workshops create space to pause, reflect, and reconnect with what matters most.
 - Through guided practices and meaningful conversations, you’ll cultivate mindful presence in daily life and work, strengthen awareness in parenting, and gain clarity around your values, needs, and strengths.
 - Designed for both individuals and parents, these workshops offer practical tools to bring more presence, balance, and connection into work, family, and personal life.
-- Workshops start the first half of 2026.
+- Workshops start the first half of 2027.
 - Join our waiting list by email to be the first to know when registration opens.
 - “Clarity. Presence. A fulfilled and meaningful life.”

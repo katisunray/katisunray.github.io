@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {% include "partials/seo.njk" %}
-    <link rel="stylesheet" href="{{ '/assets/main.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | url }}?v={{ site.buildVersion }}" />
   </head>
   <body class="min-h-screen bg-gradient-to-br from-neutral-50 to-white text-neutral-900 antialiased">
     <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-neutral-200/50">

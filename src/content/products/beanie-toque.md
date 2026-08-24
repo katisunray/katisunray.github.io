@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Beanie Toque"
 slug: "beanie-toque"
 permalink: "/shop/{{ slug }}/index.html"
-price: 50
+price: 55
 shop_list_order: 10
 currency: "CAD"
 type: "BEANIE TOQUE"
@@ -23,7 +23,7 @@ collection_sets:
     skus:
       - id: "KO546-Q01"
         name: "Being Present Embroidered Toque (Grey)"
-        price: 45
+        price: 55
         image:
           src: "/images/products/beanie-toque/KO546-Q01_Beanie Toque_Collection Mindful Presence_Being Present - Embroiderie - Grey.jpg"
           alt: "Grey beanie toque with \"Being Present\" embroidered in white."

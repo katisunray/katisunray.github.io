@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Mugs"
 slug: "mugs"
 permalink: "/shop/{{ slug }}/index.html"
-price: 40
+price: 45
 shop_list_order: 8
 currency: "CAD"
 type: "MUGS"

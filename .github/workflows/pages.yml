@@ -37,6 +37,7 @@ jobs:
         env:
           PATH_PREFIX: /
           SITE_URL: https://${{ github.repository_owner }}.github.io
+          SITE_VERSION: ${{ github.sha }}
 
       - name: Add .nojekyll
         run: |

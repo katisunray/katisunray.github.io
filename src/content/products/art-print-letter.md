@@ -3,7 +3,7 @@ layout: layouts/product.njk
 title: "Art Print (Letter Size)"
 slug: "art-print"
 permalink: "/shop/{{ slug }}/index.html"
-price: 25
+price: 30
 shop_list_order: 1
 currency: "CAD"
 sku: "P-ART-LETTER"
@@ -29,6 +29,4 @@ Looking for a specific product you don’t see in our online store? Email us wit
 Order timeline (if product is not available in our online store): 5 business days to process + shipping (additional shipping cost)
 
 *Option to buy digital file and print at your own convenience. Email for details and pricing.
-
-
 

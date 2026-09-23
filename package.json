@@ -6,7 +6,8 @@
     "dev": "concurrently \"npm:watch:*\"",
     "watch:11ty": "eleventy --serve",
     "watch:css": "node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && postcss src/styles/input.css -o _site/assets/main.css --watch",
-    "build": "rimraf _site && eleventy && node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && postcss src/styles/input.css -o _site/assets/main.css"
+    "build": "rimraf _site && eleventy && node -e \"require('fs').mkdirSync('_site/assets',{recursive:true})\" && postcss src/styles/input.css -o _site/assets/main.css",
+    "qr": "node scripts/generate-qr.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -15,6 +16,7 @@
     "concurrently": "^8.2.2",
     "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
+    "qrcode": "^1.5.4",
     "rimraf": "^6.0.1",
     "tailwindcss": "^3.4.10"
   }

@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "shop",
+    "label": "Online store",
+    "url": "https://katisunraystudio.myshopify.com/?utm_source=katisunray.github.io&utm_medium=qr_code&utm_campaign=qr_redirect&utm_content=shop"
+  },
+  {
+    "slug": "instagram",
+    "label": "Instagram",
+    "url": "https://www.instagram.com/kati_sunray/?utm_source=katisunray.github.io&utm_medium=qr_code&utm_campaign=qr_redirect&utm_content=instagram"
+  },
+  {
+    "slug": "review",
+    "label": "Google reviews",
+    "url": "https://g.page/r/CSdu8R2JLba_EAI/review?utm_source=katisunray.github.io&utm_medium=qr_code&utm_campaign=qr_redirect&utm_content=review"
+  },
+  {
+    "slug": "website",
+    "label": "Website",
+    "url": "https://katisunray.github.io/?utm_source=katisunray.github.io&utm_medium=qr_code&utm_campaign=qr_redirect&utm_content=website"
+  }
+]

@@ -83,6 +83,13 @@ Encode these URLs in printed QR codes so the destination can change later:
 | https://katisunray.github.io/go/review/ | https://g.page/r/CSdu8R2JLba_EAI/review |
 | https://katisunray.github.io/go/website/ | https://katisunray.github.io/ |
 
+### QR-code images
+
+Print-ready codes for the URLs above are in `qr-codes/` (`qr-<slug>.svg` for print,
+`qr-<slug>.png` at 1200px). They use high error correction and only encode the
+permanent `/go/` URL, so they never need regenerating when a destination changes.
+After adding a new slug to `src/_data/redirects.json`, run `npm run qr` to create its code.
+
 ### Change a destination
 
 1. Edit the matching `url` in `src/_data/redirects.json`. Use the full `https://` destination URL and retain the UTM parameters described below.
@@ -123,6 +130,7 @@ event tracking on the redirect pages. See [Google's campaign URL documentation](
 ## Scripts
 - `npm run dev` — concurrently runs Eleventy dev server and PostCSS watcher
 - `npm run build` — cleans `_site/`, builds CSS and templates for production
+- `npm run qr` — regenerates QR-code images in `qr-codes/` from `src/_data/redirects.json`
 
 ## License
 Not specified. Add your preferred license file if needed.

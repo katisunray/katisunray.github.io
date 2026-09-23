@@ -72,10 +72,57 @@ After pushing to `master`, GitHub Actions will build and deploy automatically.
 ## Custom domain (optional)
 Add a `CNAME` file under `public/` with your domain name. It will be copied to the site root on build.
 
+## Permanent QR-code links
+
+Encode these URLs in printed QR codes so the destination can change later:
+
+| QR-code URL | Destination before tracking parameters |
+| --- | --- |
+| https://katisunray.github.io/go/shop/ | https://katisunraystudio.myshopify.com/ |
+| https://katisunray.github.io/go/instagram/ | https://www.instagram.com/kati_sunray/ |
+| https://katisunray.github.io/go/review/ | https://g.page/r/CSdu8R2JLba_EAI/review |
+| https://katisunray.github.io/go/website/ | https://katisunray.github.io/ |
+
+### Change a destination
+
+1. Edit the matching `url` in `src/_data/redirects.json`. Use the full `https://` destination URL and retain the UTM parameters described below.
+2. Keep the `slug` unchanged: it determines the permanent address printed in the QR code.
+3. Run `npm run build`, then commit and merge the change into `master` to deploy it through the existing Pages workflow.
+4. Wait for deployment to succeed, then open the permanent URL and verify the destination before printing or sharing QR codes.
+
+`src/redirects.njk` generates all four pages from this data. Each page uses
+`location.replace` plus an HTML refresh fallback for browsers with JavaScript
+disabled, and includes a clickable destination link. These are browser redirects,
+not HTTP 302 responses. The redirect pages are excluded from the sitemap and marked
+`noindex`. Keep the repository, GitHub Pages site, and `/go/` paths available for as
+long as the printed codes are in use. A newly deployed destination may take time
+to appear because of hosting or browser caching.
+
+### Campaign attribution
+
+The destination URLs in `src/_data/redirects.json` include standard Google Analytics
+campaign parameters. Keep the printed `/go/` URLs unchanged.
+
+| Parameter | Value |
+| --- | --- |
+| `utm_source` | `katisunray.github.io` (the redirect origin) |
+| `utm_medium` | `qr_code` |
+| `utm_campaign` | `qr_redirect` |
+| `utm_content` | The redirect slug: `shop`, `instagram`, `review`, or `website` |
+
+`utm_redirect` is not a standard GA campaign parameter; the redirect origin is
+recorded in `utm_source`. Store plain URLs in the JSON, not Markdown links.
+
+UTM tags supply attribution to analytics running on the destination. They do not
+send analytics events by themselves. This repository currently has no Google
+Analytics tag installed, and Shopify's Analytics setup must be checked separately.
+Adding tags to Instagram or Google review links does not report those visits into
+the studio's GA property. Measuring those outbound redirects requires separate
+event tracking on the redirect pages. See [Google's campaign URL documentation](https://support.google.com/analytics/answer/10917952?hl=en).
+
 ## Scripts
 - `npm run dev` — concurrently runs Eleventy dev server and PostCSS watcher
 - `npm run build` — cleans `_site/`, builds CSS and templates for production
 
 ## License
 Not specified. Add your preferred license file if needed.
-

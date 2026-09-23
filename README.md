@@ -59,7 +59,7 @@ How the workflow works:
   - `PATH_PREFIX` → `/${repo}` for correct absolute URLs when the site is published at `/username/repo`.
   - `SITE_URL` → used by `src/_data/site.js` to compute canonical URLs.
 
-After pushing to `master`, GitHub Actions will build and deploy automatically.
+After pushing to `main`, GitHub Actions will build and deploy automatically.
 
 ## Troubleshooting
 - Red job named “pages build and deployment / build (dynamic)” fails with Liquid errors
@@ -87,7 +87,7 @@ Encode these URLs in printed QR codes so the destination can change later:
 
 1. Edit the matching `url` in `src/_data/redirects.json`. Use the full `https://` destination URL and retain the UTM parameters described below.
 2. Keep the `slug` unchanged: it determines the permanent address printed in the QR code.
-3. Run `npm run build`, then commit and merge the change into `master` to deploy it through the existing Pages workflow.
+3. Run `npm run build`, then commit and merge the change into `main` to deploy it through the existing Pages workflow.
 4. Wait for deployment to succeed, then open the permanent URL and verify the destination before printing or sharing QR codes.
 
 `src/redirects.njk` generates all four pages from this data. Each page uses
